@@ -1,0 +1,37 @@
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.exe
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.deps.json
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.runtimeconfig.json
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.runtimeconfig.dev.json
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.Views.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csprojAssemblyReference.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfoInputs.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfo.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CoreCompileInputs.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.MvcApplicationPartsAssemblyInfo.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorAssemblyInfo.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorAssemblyInfo.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\staticwebassets\Projet AdoNet.StaticWebAssets.Manifest.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\staticwebassets\Projet AdoNet.StaticWebAssets.xml
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\scopedcss\bundle\Projet AdoNet.styles.css
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.TagHelpers.input.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.TagHelpers.output.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorCoreGenerate.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.genruntimeconfig.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CopyComplete
