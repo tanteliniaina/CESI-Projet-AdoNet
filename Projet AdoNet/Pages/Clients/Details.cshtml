@@ -1,0 +1,36 @@
+﻿@page
+@model Projet_AdoNet.Pages.Clients.DetailsModel
+
+@{
+    ViewData["Title"] = "Les informations du client";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Client.nomClient)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Client.nomClient)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Client.prenomClient)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Client.prenomClient)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Client.idClient">Modifier</a> |
+    <a asp-page="./Index">Revenir à la liste</a>
+</div>

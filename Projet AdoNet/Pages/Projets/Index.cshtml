@@ -1,0 +1,79 @@
+﻿@page
+@model Projet_AdoNet.Pages.Projets.IndexModel
+
+@{
+    ViewData["Title"] = "Administration - Projets";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+
+<p>
+    <a asp-page="Create" class="btn btn-primary btn-lg" tabindex="-1" role="button">Nouveau projet</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].nomProjet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].dateCreation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].dateFinalisation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].villeProjet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].idStatutProjet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].idCommercial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Projet[0].idClient)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Projet)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nomProjet)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dateCreation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dateFinalisation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.villeProjet)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idStatutProjet)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idCommercial)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.idClient)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.idProjet">Modifier</a> |
+                    <a asp-page="./Details" asp-route-id="@item.idProjet">Détails</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.idProjet">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

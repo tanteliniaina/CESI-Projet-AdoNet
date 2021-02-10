@@ -1,0 +1,66 @@
+﻿@page
+@model Projet_AdoNet.Pages.Projets.DetailsModel
+
+@{
+    ViewData["Title"] = "Les informations du projet";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.nomProjet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.nomProjet)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.dateCreation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.dateCreation)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.dateFinalisation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.dateFinalisation)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.villeProjet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.villeProjet)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.idStatutProjet)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.idStatutProjet)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.idCommercial)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.idCommercial)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Projet.idClient)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Projet.idClient)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Projet.idProjet">Modifier</a> |
+    <a asp-page="./Index">Revenir à la liste</a>
+</div>

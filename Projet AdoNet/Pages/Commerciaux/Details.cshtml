@@ -1,0 +1,36 @@
+﻿@page
+@model Projet_AdoNet.Pages.Commerciaux.DetailsModel
+
+@{
+    ViewData["Title"] = "Les informations du commercial";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commercial.nomCommercial)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Commercial.nomCommercial)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Commercial.prenomCommercial)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Commercial.prenomCommercial)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Commercial.idCommercial">Modifier</a> |
+    <a asp-page="./Index">Revenir à la liste</a>
+</div>
