@@ -35,3 +35,4 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.pdb
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.genruntimeconfig.cache
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CopyComplete
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\BI.cshtml.g.cs

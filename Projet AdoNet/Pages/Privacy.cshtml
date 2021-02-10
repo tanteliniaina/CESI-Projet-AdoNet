@@ -1,8 +1,38 @@
 ﻿@page
 @model PrivacyModel
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Politiques & Confidentialités";
 }
-<h1>@ViewData["Title"]</h1>
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<br />
+
+<div id="accordion">
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                Politiques :
+            </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                Confidentialités :
+            </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+        </div>
+    </div>
+</div>
+
