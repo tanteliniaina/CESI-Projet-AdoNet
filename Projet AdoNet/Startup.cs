@@ -10,6 +10,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projet_AdoNet.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace Projet_AdoNet
 {
@@ -25,10 +27,31 @@ namespace Projet_AdoNet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            /*services.AddRazorPages();
+            services.AddSession();*/
 
+            // Authenfication garde
+            services.AddAuthentication(options =>
+            {
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            }).AddCookie(options =>
+            {
+                options.LoginPath = new PathString("/Index");
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(5.0);
+            });
+
+            // configuration base de donnée
             services.AddDbContext<Projet_AdoNetContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
+
+           // configuration Razor Pages 
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AuthorizeFolder("/");
+                options.Conventions.AllowAnonymousToPage("/Index");
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -37,6 +60,10 @@ namespace Projet_AdoNet
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+              
+                //app.UseBrowserLink();
+                
+               
             }
             else
             {
@@ -49,8 +76,11 @@ namespace Projet_AdoNet
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            //connexion configuration
             app.UseAuthorization();
+
+           // app.UseSession();
+
 
             app.UseEndpoints(endpoints =>
             {

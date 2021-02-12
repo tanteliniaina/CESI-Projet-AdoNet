@@ -24,6 +24,8 @@
     ".NETCoreApp,Version=v3.1": {
       "Projet AdoNet/1.0.0": {
         "dependencies": {
+          "Angular.Material": "1.1.12",
+          "Microsoft.AspNet.Providers.Core": "2.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "3.1.11",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.11",
@@ -302,6 +304,54 @@
         },
         "compile": {
           "Projet AdoNet.dll": {}
+        }
+      },
+      "Angular.Material/1.1.12": {
+        "dependencies": {
+          "AngularJS.Animate": "1.6.4",
+          "AngularJS.Aria": "1.6.4",
+          "AngularJS.Core": "1.6.4"
+        }
+      },
+      "AngularJS.Animate/1.6.4": {
+        "dependencies": {
+          "AngularJS.Core": "1.6.4"
+        }
+      },
+      "AngularJS.Aria/1.6.4": {
+        "dependencies": {
+          "AngularJS.Core": "1.6.4"
+        }
+      },
+      "AngularJS.Core/1.6.4": {},
+      "EntityFramework/6.0.0": {
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20911.0"
+          },
+          "lib/net45/EntityFramework.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20911.0"
+          }
+        },
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Microsoft.AspNet.Providers.Core/2.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.0.0"
+        },
+        "runtime": {
+          "lib/net40/System.Web.Providers.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.21122.0"
+          }
+        },
+        "compile": {
+          "lib/net40/System.Web.Providers.dll": {}
         }
       },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -3999,6 +4049,48 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Angular.Material/1.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CTyAFKCMHsFfXrw7E6ZbsAljSW7PQPHofVbOC/ePf2M4l5SCGjIA38GiT7/DzsHdbY/dcBAPj+MkbfNdJZXwRg==",
+      "path": "angular.material/1.1.12",
+      "hashPath": "angular.material.1.1.12.nupkg.sha512"
+    },
+    "AngularJS.Animate/1.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WzBLUe9i8mO40h4h7hK8gXJbB/v+0jnczFagGuPV2F94eGgNNHdim57Kk4y6UpMUha5XgXnK1eYb+bn5j8LOSQ==",
+      "path": "angularjs.animate/1.6.4",
+      "hashPath": "angularjs.animate.1.6.4.nupkg.sha512"
+    },
+    "AngularJS.Aria/1.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z5vQOQxr594RiNlXBTm4OyGH3KzfNIwHniNZrBS/Jxyg3dW3vj5Yx278NCJQjrVcQqC5xN9gQanj4Dsl5D+oIw==",
+      "path": "angularjs.aria/1.6.4",
+      "hashPath": "angularjs.aria.1.6.4.nupkg.sha512"
+    },
+    "AngularJS.Core/1.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ghA96fP+f9mJB/IFBftl47Lg2JIR6XNv26/ImBOUsBZqZBkzvGRKW8Kvhgdwd/oJFIz8diRrsJnTK87BsAFTzQ==",
+      "path": "angularjs.core/1.6.4",
+      "hashPath": "angularjs.core.1.6.4.nupkg.sha512"
+    },
+    "EntityFramework/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
+      "path": "entityframework/6.0.0",
+      "hashPath": "entityframework.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Providers.Core/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JMk31PExMANVDc04aSUyIlcL3pkFVyNg/dDn+ZZzmhZ2CBctI90BWQH1L0zXgD61ZWW5r4ybInV362sRKWIC+A==",
+      "path": "microsoft.aspnet.providers.core/2.0.0",
+      "hashPath": "microsoft.aspnet.providers.core.2.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
