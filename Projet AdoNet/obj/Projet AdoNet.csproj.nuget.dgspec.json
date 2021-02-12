@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {}
+    "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {}
   },
   "projects": {
-    "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {
+    "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
+        "projectUniqueName": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
         "projectName": "Projet AdoNet",
-        "projectPath": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
-        "packagesPath": "C:\\Users\\cessn\\.nuget\\packages\\",
-        "outputPath": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\",
+        "projectPath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
+        "packagesPath": "C:\\Users\\a774726\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\cessn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\a774726\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
