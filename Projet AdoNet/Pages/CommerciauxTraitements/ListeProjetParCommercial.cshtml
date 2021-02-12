@@ -1,0 +1,39 @@
+﻿@page
+@model Projet_AdoNet.Pages.CommerciauxTraitements.ListeProjetParCommercialModel
+@{
+    ViewData["Title"] = "Test1";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<br />
+
+<table class="table table-striped table caption-top">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nom</th>
+            <th scope="col">Date de Création</th>
+            <th scope="col">Date de Finalisation</th>
+            <th scope="col">Ville</th>
+            <th scope="col">Statut</th>
+            <th scope="col">Id Client</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Projet)
+        {
+            <tr>
+                <th scope="row">@Html.DisplayFor(Model => item.idProjet)</th>
+                <td>@Html.DisplayFor(Model => item.nomProjet)</td>
+                <td>@Html.DisplayFor(Model => item.dateCreation)</td>
+                <td>@Html.DisplayFor(Model => item.dateFinalisation)</td>
+                <td>@Html.DisplayFor(Model => item.villeProjet)</td>
+                <td>@Html.DisplayFor(Model => item.idStatutProjet)</td>
+                <td>@Html.DisplayFor(Model => item.idClient)</td>
+            </tr>
+        }
+    </tbody>
+</table>
