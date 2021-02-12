@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projet_AdoNet.Data;
+using Projet_AdoNet.Models;
 
 namespace Projet_AdoNet
 {
@@ -29,6 +30,11 @@ namespace Projet_AdoNet
 
             services.AddDbContext<Projet_AdoNetContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
+
+            /*Connexion personnalisé*/
+            /*services.AddSingleton<Connexion>();
+            services.AddSingleton<CommercialTraitement>();
+            services.AddSingleton<CommercialListeProjet>();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

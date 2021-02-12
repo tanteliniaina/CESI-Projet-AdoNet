@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Projets.CreateModel
 
 @{
-    ViewData["Title"] = "Créer un projet";
+    ViewData["Title"] = "Création d'un Projet";
 }
 
 <br />
@@ -18,39 +18,39 @@
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Projet.nomProjet" class="control-label"></label>
-                <input asp-for="Projet.nomProjet" class="form-control" />
-                <span asp-validation-for="Projet.nomProjet" class="text-danger"></span>
+                <label asp-for="Projet.Nom" class="control-label"></label>
+                <input asp-for="Projet.Nom" class="form-control" />
+                <span asp-validation-for="Projet.Nom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Projet.dateCreation" class="control-label"></label>
-                <input asp-for="Projet.dateCreation" class="form-control" />
-                <span asp-validation-for="Projet.dateCreation" class="text-danger"></span>
+                <label asp-for="Projet.DateCreation" class="control-label"></label>
+                <input asp-for="Projet.DateCreation" class="form-control" />
+                <span asp-validation-for="Projet.DateCreation" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Projet.dateFinalisation" class="control-label"></label>
-                <input asp-for="Projet.dateFinalisation" class="form-control" />
-                <span asp-validation-for="Projet.dateFinalisation" class="text-danger"></span>
+                <label asp-for="Projet.DateFinalisation" class="control-label"></label>
+                <input asp-for="Projet.DateFinalisation" class="form-control" />
+                <span asp-validation-for="Projet.DateFinalisation" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Projet.villeProjet" class="control-label"></label>
-                <input asp-for="Projet.villeProjet" class="form-control" />
-                <span asp-validation-for="Projet.villeProjet" class="text-danger"></span>
+                <label asp-for="Projet.Ville" class="control-label"></label>
+                <input asp-for="Projet.Ville" class="form-control" />
+                <span asp-validation-for="Projet.Ville" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Projet.idStatutProjet" class="control-label"></label>
-                <input asp-for="Projet.idStatutProjet" class="form-control" />
-                <span asp-validation-for="Projet.idStatutProjet" class="text-danger"></span>
+                <label asp-for="Projet.IdStatut" class="control-label"></label>
+                <input asp-for="Projet.IdStatut" class="form-control" />
+                <span asp-validation-for="Projet.IdStatut" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Projet.idCommercial" class="control-label"></label>
-                <input asp-for="Projet.idCommercial" class="form-control" />
-                <span asp-validation-for="Projet.idCommercial" class="text-danger"></span>
+                <label asp-for="Projet.IdCommercial" class="control-label"></label>
+                <input asp-for="Projet.IdCommercial" class="form-control" />
+                <span asp-validation-for="Projet.IdCommercial" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Projet.idClient" class="control-label"></label>
-                <input asp-for="Projet.idClient" class="form-control" />
-                <span asp-validation-for="Projet.idClient" class="text-danger"></span>
+                <label asp-for="Projet.IdClient" class="control-label"></label>
+                <input asp-for="Projet.IdClient" class="form-control" />
+                <span asp-validation-for="Projet.IdClient" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input type="submit" value="Créer" class="btn btn-primary" />
@@ -60,7 +60,7 @@
 </div>
 
 <div>
-    <a asp-page="Index">Revenir à la liste</a>
+    <a asp-page="./Index">Revenir à la liste</a>
 </div>
 
 @section Scripts {

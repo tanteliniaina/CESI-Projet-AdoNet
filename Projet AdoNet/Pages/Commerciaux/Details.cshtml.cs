@@ -28,7 +28,7 @@ namespace Projet_AdoNet.Pages.Commerciaux
                 return NotFound();
             }
 
-            Commercial = await _context.Commercial.FirstOrDefaultAsync(m => m.idCommercial == id);
+            Commercial = await _context.Commercial.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Commercial == null)
             {

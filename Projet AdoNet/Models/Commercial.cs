@@ -9,8 +9,8 @@ namespace Projet_AdoNet.Models
     public class Commercial
     {
         [Key]
-        public int idCommercial { get; set; }
-        public string nomCommercial { get; set; }
-        public string prenomCommercial { get; set; }
+        public int Id { get; set; }
+        public string Nom { get; set; }
+        public string Prenom { get; set; }
     }
 }

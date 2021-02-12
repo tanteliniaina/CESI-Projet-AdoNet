@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rJBQ2e90atWtkM9s8QpsrNDahIRh3wq7bbARjTULe0+7NqbqRuXRUgA3ulTFULnVewjXC23IkflY4s+Qxy+bLQ==",
+  "dgSpecHash": "h+j0LqbJLw3JWMuwVe8/x2RNgC8QYQ8Ho16C1G87JGGMc8dJejrXsIKJvrta1CSNp2Z3w4+3tNVyPhUn2EGajg==",
   "success": true,
   "projectFilePath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
   "expectedPackageFiles": [
@@ -49,14 +49,14 @@
     "C:\\Users\\a774726\\.nuget\\packages\\microsoft.identitymodel.tokens\\5.5.0\\microsoft.identitymodel.tokens.5.5.0.nupkg.sha512",
     "C:\\Users\\a774726\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\a774726\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.4\\microsoft.visualstudio.web.codegeneration.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.4\\microsoft.visualstudio.web.codegeneration.contracts.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.4\\microsoft.visualstudio.web.codegeneration.core.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\3.1.4\\microsoft.visualstudio.web.codegeneration.design.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\3.1.4\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\3.1.4\\microsoft.visualstudio.web.codegeneration.templating.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\3.1.4\\microsoft.visualstudio.web.codegeneration.utils.3.1.4.nupkg.sha512",
-    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\3.1.4\\microsoft.visualstudio.web.codegenerators.mvc.3.1.4.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration\\3.1.5\\microsoft.visualstudio.web.codegeneration.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.contracts\\3.1.5\\microsoft.visualstudio.web.codegeneration.contracts.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.core\\3.1.5\\microsoft.visualstudio.web.codegeneration.core.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.design\\3.1.5\\microsoft.visualstudio.web.codegeneration.design.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.entityframeworkcore\\3.1.5\\microsoft.visualstudio.web.codegeneration.entityframeworkcore.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.templating\\3.1.5\\microsoft.visualstudio.web.codegeneration.templating.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegeneration.utils\\3.1.5\\microsoft.visualstudio.web.codegeneration.utils.3.1.5.nupkg.sha512",
+    "C:\\Users\\a774726\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\3.1.5\\microsoft.visualstudio.web.codegenerators.mvc.3.1.5.nupkg.sha512",
     "C:\\Users\\a774726\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\a774726\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\a774726\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
@@ -174,5 +174,12 @@
     "C:\\Users\\a774726\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\a774726\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

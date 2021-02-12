@@ -1,0 +1,33 @@
+﻿@page
+@model Projet_AdoNet.Pages.Statuts.DeleteModel
+
+@{
+    ViewData["Title"] = "Suppression d'un Statut";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+
+<h3>Voulez vous réellement le supprimer ?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.StatutProjet.Libelle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StatutProjet.Libelle)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="StatutProjet.Id" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-page="./Index">Revenir à la liste</a>
+    </form>
+</div>

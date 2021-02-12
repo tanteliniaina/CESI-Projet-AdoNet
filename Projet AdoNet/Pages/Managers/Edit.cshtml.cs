@@ -30,7 +30,7 @@ namespace Projet_AdoNet.Pages.Managers
                 return NotFound();
             }
 
-            Manager = await _context.Manager.FirstOrDefaultAsync(m => m.idManager == id);
+            Manager = await _context.Manager.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Manager == null)
             {
@@ -56,7 +56,7 @@ namespace Projet_AdoNet.Pages.Managers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ManagerExists(Manager.idManager))
+                if (!ManagerExists(Manager.Id))
                 {
                     return NotFound();
                 }
@@ -71,7 +71,7 @@ namespace Projet_AdoNet.Pages.Managers
 
         private bool ManagerExists(int id)
         {
-            return _context.Manager.Any(e => e.idManager == id);
+            return _context.Manager.Any(e => e.Id == id);
         }
     }
 }

@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Projets.DetailsModel
 
 @{
-    ViewData["Title"] = "Les informations du projet";
+    ViewData["Title"] = "Details du Projet";
 }
 
 <br />
@@ -17,50 +17,50 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.nomProjet)
+            @Html.DisplayNameFor(model => model.Projet.Nom)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.nomProjet)
+            @Html.DisplayFor(model => model.Projet.Nom)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.dateCreation)
+            @Html.DisplayNameFor(model => model.Projet.DateCreation)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.dateCreation)
+            @Html.DisplayFor(model => model.Projet.DateCreation)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.dateFinalisation)
+            @Html.DisplayNameFor(model => model.Projet.DateFinalisation)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.dateFinalisation)
+            @Html.DisplayFor(model => model.Projet.DateFinalisation)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.villeProjet)
+            @Html.DisplayNameFor(model => model.Projet.Ville)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.villeProjet)
+            @Html.DisplayFor(model => model.Projet.Ville)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.idStatutProjet)
+            @Html.DisplayNameFor(model => model.Projet.IdStatut)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.idStatutProjet)
+            @Html.DisplayFor(model => model.Projet.IdStatut)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.idCommercial)
+            @Html.DisplayNameFor(model => model.Projet.IdCommercial)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.idCommercial)
+            @Html.DisplayFor(model => model.Projet.IdCommercial)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Projet.idClient)
+            @Html.DisplayNameFor(model => model.Projet.IdClient)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Projet.idClient)
+            @Html.DisplayFor(model => model.Projet.IdClient)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Projet.idProjet">Modifier</a> |
+    <a asp-page="./Edit" asp-route-id="@Model.Projet.Id">Modifier</a> |
     <a asp-page="./Index">Revenir à la liste</a>
 </div>

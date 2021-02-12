@@ -28,7 +28,7 @@ namespace Projet_AdoNet.Pages.Projets
                 return NotFound();
             }
 
-            Projet = await _context.Projet.FirstOrDefaultAsync(m => m.idProjet == id);
+            Projet = await _context.Projet.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Projet == null)
             {

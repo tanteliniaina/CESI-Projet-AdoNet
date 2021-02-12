@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Projets.IndexModel
 
 @{
-    ViewData["Title"] = "Administration - Projets";
+    ViewData["Title"] = "Gestion de Projets";
 }
 
 <br />
@@ -14,31 +14,31 @@
 <br />
 
 <p>
-    <a asp-page="Create" class="btn btn-primary btn-lg" tabindex="-1" role="button">Nouveau projet</a>
+    <a asp-page="Create" class="btn btn-primary btn-lg" role="button">Créer un Projet</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].nomProjet)
+                @Html.DisplayNameFor(model => model.Projet[0].Nom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].dateCreation)
+                @Html.DisplayNameFor(model => model.Projet[0].DateCreation)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].dateFinalisation)
+                @Html.DisplayNameFor(model => model.Projet[0].DateFinalisation)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].villeProjet)
+                @Html.DisplayNameFor(model => model.Projet[0].Ville)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].idStatutProjet)
+                @Html.DisplayNameFor(model => model.Projet[0].IdStatut)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].idCommercial)
+                @Html.DisplayNameFor(model => model.Projet[0].IdCommercial)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Projet[0].idClient)
+                @Html.DisplayNameFor(model => model.Projet[0].IdClient)
             </th>
             <th></th>
         </tr>
@@ -48,30 +48,30 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.nomProjet)
+                    @Html.DisplayFor(modelItem => item.Nom)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.dateCreation)
+                    @Html.DisplayFor(modelItem => item.DateCreation)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.dateFinalisation)
+                    @Html.DisplayFor(modelItem => item.DateFinalisation)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.villeProjet)
+                    @Html.DisplayFor(modelItem => item.Ville)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.idStatutProjet)
+                    @Html.DisplayFor(modelItem => item.IdStatut)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.idCommercial)
+                    @Html.DisplayFor(modelItem => item.IdCommercial)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.idClient)
+                    @Html.DisplayFor(modelItem => item.IdClient)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.idProjet">Modifier</a> |
-                    <a asp-page="./Details" asp-route-id="@item.idProjet">Détails</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.idProjet">Supprimer</a>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Modifier</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a>
                 </td>
             </tr>
         }

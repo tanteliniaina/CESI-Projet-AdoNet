@@ -28,7 +28,7 @@ namespace Projet_AdoNet.Pages.Managers
                 return NotFound();
             }
 
-            Manager = await _context.Manager.FirstOrDefaultAsync(m => m.idManager == id);
+            Manager = await _context.Manager.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Manager == null)
             {

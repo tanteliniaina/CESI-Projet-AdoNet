@@ -9,8 +9,8 @@ namespace Projet_AdoNet.Models
     public class Client
     {
         [Key]
-        public int idClient { get; set; }
-        public string nomClient { get; set; }
-        public string prenomClient { get; set; }
+        public int Id { get; set; }
+        public string Nom { get; set; }
+        public string Prenom { get; set; }
     }
 }
