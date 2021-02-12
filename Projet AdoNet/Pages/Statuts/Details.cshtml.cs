@@ -1,26 +1,25 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
+using Projet_AdoNet.Data;
 using Projet_AdoNet.Models;
 
-namespace Projet_AdoNet.Pages.CommerciauxTraitements
+namespace Projet_AdoNet.Pages.Statuts
 {
-    public class ListeProjetParCommercialModel : PageModel
+    public class DetailsModel : PageModel
     {
-        private readonly CommercialListeProjet _context;
+        private readonly Projet_AdoNet.Data.Projet_AdoNetContext _context;
 
-        public ListeProjetParCommercialModel(CommercialListeProjet context)
+        public DetailsModel(Projet_AdoNet.Data.Projet_AdoNetContext context)
         {
             _context = context;
         }
 
-        readonly CommercialListeProjet lt = new CommercialListeProjet();
-
-        public List<Projet> Projet { get; set; }
-
+        public StatutProjet StatutProjet { get; set; }
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -29,9 +28,9 @@ namespace Projet_AdoNet.Pages.CommerciauxTraitements
                 return NotFound();
             }
 
-            Projet = lt.GetProject(id);
+            StatutProjet = await _context.StatutProjet.FirstOrDefaultAsync(m => m.Id == id);
 
-            if (Projet == null)
+            if (StatutProjet == null)
             {
                 return NotFound();
             }

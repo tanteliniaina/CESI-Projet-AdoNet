@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Commerciaux.DetailsModel
 
 @{
-    ViewData["Title"] = "Les informations du commercial";
+    ViewData["Title"] = "Details du Commercial";
 }
 
 <br />
@@ -17,20 +17,20 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Commercial.nomCommercial)
+            @Html.DisplayNameFor(model => model.Commercial.Nom)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Commercial.nomCommercial)
+            @Html.DisplayFor(model => model.Commercial.Nom)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Commercial.prenomCommercial)
+            @Html.DisplayNameFor(model => model.Commercial.Prenom)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Commercial.prenomCommercial)
+            @Html.DisplayFor(model => model.Commercial.Prenom)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Commercial.idCommercial">Modifier</a> |
+    <a asp-page="./Edit" asp-route-id="@Model.Commercial.Id">Modifier</a> |
     <a asp-page="./Index">Revenir à la liste</a>
 </div>

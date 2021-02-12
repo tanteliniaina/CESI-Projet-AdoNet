@@ -30,14 +30,14 @@ namespace Projet_AdoNet.Models
                 {
                 Projet prj = new Projet();
 
-                    prj.idProjet = reader.GetInt32(0);
-                    prj.nomProjet = reader.GetString(1);
-                    prj.dateCreation = reader.GetDateTime(2);
-                    prj.dateFinalisation = reader.GetDateTime(3);
-                    prj.villeProjet = reader.GetString(4);
-                    prj.idStatutProjet = reader.GetInt32(5);
-                    prj.idCommercial = reader.GetInt32(6);
-                    prj.idClient = reader.GetInt32(7);
+                    prj.Id = reader.GetInt32(0);
+                    prj.Nom = reader.GetString(1);
+                    prj.DateCreation = reader.GetDateTime(2);
+                    prj.DateFinalisation = reader.GetDateTime(3);
+                    prj.Ville = reader.GetString(4);
+                    prj.IdStatut= reader.GetInt32(5);
+                    prj.IdCommercial = reader.GetInt32(6);
+                    prj.IdClient = reader.GetInt32(7);
 
                     dt.Add(prj);
                 }

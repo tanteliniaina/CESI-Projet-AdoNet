@@ -1,5 +1,5 @@
 ﻿@page
-@model Projet_AdoNet.Pages.CommerciauxTraitements.ListeProjetParCommercialModel
+@model Projet_AdoNet.Pages.Operations.ListeProjetParCommercialModel
 @{
     ViewData["Title"] = "Test1";
 }
@@ -26,13 +26,13 @@
         @foreach (var item in Model.Projet)
         {
             <tr>
-                <th scope="row">@Html.DisplayFor(Model => item.idProjet)</th>
-                <td>@Html.DisplayFor(Model => item.nomProjet)</td>
-                <td>@Html.DisplayFor(Model => item.dateCreation)</td>
-                <td>@Html.DisplayFor(Model => item.dateFinalisation)</td>
-                <td>@Html.DisplayFor(Model => item.villeProjet)</td>
-                <td>@Html.DisplayFor(Model => item.idStatutProjet)</td>
-                <td>@Html.DisplayFor(Model => item.idClient)</td>
+                <th scope="row">@Html.DisplayFor(Model => item.Id)</th>
+                <td>@Html.DisplayFor(Model => item.Nom)</td>
+                <td>@Html.DisplayFor(Model => item.DateCreation)</td>
+                <td>@Html.DisplayFor(Model => item.DateFinalisation)</td>
+                <td>@Html.DisplayFor(Model => item.Ville)</td>
+                <td>@Html.DisplayFor(Model => item.IdStatut)</td>
+                <td>@Html.DisplayFor(Model => item.IdClient)</td>
             </tr>
         }
     </tbody>

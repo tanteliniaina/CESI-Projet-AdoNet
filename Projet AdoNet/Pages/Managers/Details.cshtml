@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Managers.DetailsModel
 
 @{
-    ViewData["Title"] = "Les informations du manager";
+    ViewData["Title"] = "Details du Manager";
 }
 
 <br />
@@ -17,26 +17,32 @@
     <hr />
     <dl class="row">
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Manager.nomManager)
+            @Html.DisplayNameFor(model => model.Manager.Nom)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Manager.nomManager)
+            @Html.DisplayFor(model => model.Manager.Nom)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Manager.prenomManager)
+            @Html.DisplayNameFor(model => model.Manager.Prenom)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Manager.prenomManager)
+            @Html.DisplayFor(model => model.Manager.Prenom)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.Manager.userManager)
+            @Html.DisplayNameFor(model => model.Manager.Login)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.Manager.userManager)
+            @Html.DisplayFor(model => model.Manager.Login)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Manager.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Manager.Password)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-page="./Edit" asp-route-id="@Model.Manager.idManager">Modifier</a> |
+    <a asp-page="./Edit" asp-route-id="@Model.Manager.Id">Modifier</a> |
     <a asp-page="./Index">Revenir à la liste</a>
 </div>

@@ -59,10 +59,10 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
   margin-bottom: 60px;
   background-image : url("../bng.jpg");
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -77,3 +77,4 @@ h1{
 a{
     color:blueviolet;
 }
+    

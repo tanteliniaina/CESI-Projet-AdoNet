@@ -1,3 +1,10 @@
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfoInputs.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfo.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CoreCompileInputs.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.MvcApplicationPartsAssemblyInfo.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorAssemblyInfo.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorAssemblyInfo.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csprojAssemblyReference.cache
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.exe
@@ -8,35 +15,9 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.pdb
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.Views.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csprojAssemblyReference.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfoInputs.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfo.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CoreCompileInputs.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.MvcApplicationPartsAssemblyInfo.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorAssemblyInfo.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorAssemblyInfo.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\staticwebassets\Projet AdoNet.StaticWebAssets.Manifest.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\staticwebassets\Projet AdoNet.StaticWebAssets.xml
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\scopedcss\bundle\Projet AdoNet.styles.css
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.TagHelpers.input.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.TagHelpers.output.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorCoreGenerate.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.pdb
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.genruntimeconfig.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CopyComplete
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\BI.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -53,7 +34,9 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Micros
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -145,6 +128,11 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\ru\Mic
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -157,38 +145,54 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtim
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\staticwebassets\Projet AdoNet.StaticWebAssets.Manifest.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\staticwebassets\Projet AdoNet.StaticWebAssets.xml
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\scopedcss\bundle\Projet AdoNet.styles.css
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.TagHelpers.input.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.TagHelpers.output.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorCoreGenerate.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\BI.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Clients\Create.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Clients\Delete.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Clients\Details.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Clients\Edit.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Clients\Index.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Commerciaux\Create.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Commerciaux\Delete.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Commerciaux\Details.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Commerciaux\Edit.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Commerciaux\Index.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Administration.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Create.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Delete.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Details.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Edit.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Index.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Create.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Delete.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Details.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Edit.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Index.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\CommerciauxTraitements\Index.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\CommerciauxTraitements\ListeProjetParCommercial.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\Index.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeProjetParCommercial.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Statuts\Create.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Statuts\Delete.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Statuts\Details.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Statuts\Edit.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Statuts\Index.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csproj.CopyComplete
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.genruntimeconfig.cache
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Create.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Delete.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Details.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Edit.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Index.cshtml.g.cs

@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Projet_AdoNet.Models;
 
-namespace Projet_AdoNet.Pages.CommerciauxTraitements
+namespace Projet_AdoNet.Pages.Operations
 {
     public class IndexModel : PageModel
     {

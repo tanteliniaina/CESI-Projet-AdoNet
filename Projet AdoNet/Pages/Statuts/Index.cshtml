@@ -1,0 +1,43 @@
+﻿@page
+@model Projet_AdoNet.Pages.Statuts.IndexModel
+
+@{
+    ViewData["Title"] = "Gestion des Statuts";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+
+<p>
+    <a asp-page="Create" class="btn btn-primary btn-lg" role="button">Créer un Statut</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.StatutProjet[0].Libelle)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.StatutProjet)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Libelle)
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Modifier</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Managers.EditModel
 
 @{
-    ViewData["Title"] = "Modifier les informations du manager";
+    ViewData["Title"] = "Modification de l'information du Manager";
 }
 
 <br />
@@ -12,29 +12,35 @@
 </div>
 
 <br />
+
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Manager.idManager" />
+            <input type="hidden" asp-for="Manager.Id" />
             <div class="form-group">
-                <label asp-for="Manager.nomManager" class="control-label"></label>
-                <input asp-for="Manager.nomManager" class="form-control" />
-                <span asp-validation-for="Manager.nomManager" class="text-danger"></span>
+                <label asp-for="Manager.Nom" class="control-label"></label>
+                <input asp-for="Manager.Nom" class="form-control" />
+                <span asp-validation-for="Manager.Nom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Manager.prenomManager" class="control-label"></label>
-                <input asp-for="Manager.prenomManager" class="form-control" />
-                <span asp-validation-for="Manager.prenomManager" class="text-danger"></span>
+                <label asp-for="Manager.Prenom" class="control-label"></label>
+                <input asp-for="Manager.Prenom" class="form-control" />
+                <span asp-validation-for="Manager.Prenom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Manager.userManager" class="control-label"></label>
-                <input asp-for="Manager.userManager" class="form-control" />
-                <span asp-validation-for="Manager.userManager" class="text-danger"></span>
+                <label asp-for="Manager.Login" class="control-label"></label>
+                <input asp-for="Manager.Login" class="form-control" />
+                <span asp-validation-for="Manager.Login" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Modifier" class="btn btn-primary" />
+                <label asp-for="Manager.Password" class="control-label"></label>
+                <input asp-for="Manager.Password" class="form-control" />
+                <span asp-validation-for="Manager.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enregistrer" class="btn btn-primary" />>
             </div>
         </form>
     </div>

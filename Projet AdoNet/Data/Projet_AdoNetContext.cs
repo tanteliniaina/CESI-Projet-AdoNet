@@ -13,13 +13,10 @@ namespace Projet_AdoNet.Data
             : base(options)
         {
         }
-
         public DbSet<Projet_AdoNet.Models.Client> Client { get; set; }
-
         public DbSet<Projet_AdoNet.Models.Commercial> Commercial { get; set; }
-
-        public DbSet<Projet_AdoNet.Models.Projet> Projet { get; set; }
-
         public DbSet<Projet_AdoNet.Models.Manager> Manager { get; set; }
+        public DbSet<Projet_AdoNet.Models.StatutProjet> StatutProjet { get; set; }
+        public DbSet<Projet_AdoNet.Models.Projet> Projet { get; set; }
     }
 }

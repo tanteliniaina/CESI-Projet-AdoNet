@@ -32,9 +32,9 @@ namespace Projet_AdoNet
                     options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
 
             /*Connexion personnalisé*/
-            services.AddSingleton<Connexion>();
+            /*services.AddSingleton<Connexion>();
             services.AddSingleton<CommercialTraitement>();
-            services.AddSingleton<CommercialListeProjet>();
+            services.AddSingleton<CommercialListeProjet>();*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

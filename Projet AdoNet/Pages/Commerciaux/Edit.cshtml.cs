@@ -30,7 +30,7 @@ namespace Projet_AdoNet.Pages.Commerciaux
                 return NotFound();
             }
 
-            Commercial = await _context.Commercial.FirstOrDefaultAsync(m => m.idCommercial == id);
+            Commercial = await _context.Commercial.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Commercial == null)
             {
@@ -56,7 +56,7 @@ namespace Projet_AdoNet.Pages.Commerciaux
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!CommercialExists(Commercial.idCommercial))
+                if (!CommercialExists(Commercial.Id))
                 {
                     return NotFound();
                 }
@@ -71,7 +71,7 @@ namespace Projet_AdoNet.Pages.Commerciaux
 
         private bool CommercialExists(int id)
         {
-            return _context.Commercial.Any(e => e.idCommercial == id);
+            return _context.Commercial.Any(e => e.Id == id);
         }
     }
 }
