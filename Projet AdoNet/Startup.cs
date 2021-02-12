@@ -27,10 +27,10 @@ namespace Projet_AdoNet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            /*services.AddRazorPages();
-            services.AddSession();*/
+          services.AddRazorPages();
+            //services.AddSession();
 
-            // Authenfication garde
+            /* Authenfication garde
             services.AddAuthentication(options =>
             {
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -41,17 +41,17 @@ namespace Projet_AdoNet
                 options.LoginPath = new PathString("/Index");
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(5.0);
             });
-
+            */
             // configuration base de donnée
             services.AddDbContext<Projet_AdoNetContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
 
-           // configuration Razor Pages 
+           /* configuration Razor Pages 
             services.AddMvc().AddRazorPagesOptions(options =>
             {
                 options.Conventions.AuthorizeFolder("/");
                 options.Conventions.AllowAnonymousToPage("/Index");
-            });
+            });*/
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -77,7 +77,7 @@ namespace Projet_AdoNet
 
             app.UseRouting();
             //connexion configuration
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
            // app.UseSession();
 

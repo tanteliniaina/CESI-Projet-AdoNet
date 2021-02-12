@@ -10,7 +10,10 @@ namespace Projet_AdoNet.Data
 {
     public class Projet_AdoNetContext : DbContext
     {
-     
+
+        public Projet_AdoNetContext()
+        {
+        }
 
         public Projet_AdoNetContext (DbContextOptions<Projet_AdoNetContext> options)
             : base(options)
@@ -57,12 +60,12 @@ namespace Projet_AdoNet.Data
             try
             {
                 // Settings.
-                SqlParameter usernameParam = new SqlParameter("@userManager", usernameVal ?? (object)DBNull.Value);
+                SqlParameter usernameParam = new SqlParameter("@login", usernameVal ?? (object)DBNull.Value);
                 SqlParameter passwordParam = new SqlParameter("@password", passwordVal ?? (object)DBNull.Value);
 
                 // Processing.
-                string sqlQuery = "EXEC	[dbo].[LoginByUsernamePassword] " +
-                                    "@username, @password";
+                string sqlQuery = "EXEC	[dbo].[LoginByPseudoPassword] " +
+                                    "@login, @password";
 
                 lst = await this.Query<LoginByPseudoPassword>().FromSql(sqlQuery, usernameParam, passwordParam).ToListAsync();
             }

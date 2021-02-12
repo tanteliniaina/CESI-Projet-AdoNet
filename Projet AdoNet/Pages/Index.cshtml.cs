@@ -61,7 +61,7 @@ namespace Projet_AdoNet.Pages
                 if (ModelState.IsValid)
                 {
                     // Initialization.
-                    var loginInfo = await this.databaseManager.LoginByUsernamePasswordMethodAsync(this.LoginModel.userManager, this.LoginModel.Password);
+                    var loginInfo = await this.databaseManager.LoginByUsernamePasswordMethodAsync(this.LoginModel.Login, this.LoginModel.Password);
 
                     // Verification.
                     if (loginInfo != null && loginInfo.Count() > 0)
@@ -70,7 +70,7 @@ namespace Projet_AdoNet.Pages
                         var logindetails = loginInfo.First();
 
                         // Login In.
-                        await this.SignInUser(logindetails.Pseudo, false);
+                        await this.SignInUser(logindetails.Login, false);
 
                         // Info.
                         return this.RedirectToPage("/Home/Index");

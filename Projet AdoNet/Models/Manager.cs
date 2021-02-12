@@ -12,20 +12,17 @@ namespace Projet_AdoNet.Models
     {
         [Key, Column(Order = 1)]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
-        public int idManager { get; set; }
+        public int Id { get; set; }
 
         [StringLength(50, MinimumLength = 3)]
-        public string nomManager { get; set; }
+        public string Nom { get; set; }
 
         [StringLength(50, MinimumLength = 3)]
-        public string prenomManager { get; set; }
+        public string Prenom  { get; set; }
 
-        public string userManager { get; set; }
-
+        public string Login { get; set; }
 
       ///  public string Pseudo { get; set; }
-
-
         [Required]
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$")]
         public string Password { get; set; }
