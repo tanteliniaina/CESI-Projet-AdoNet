@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {}
+    "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {
+    "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
+        "projectUniqueName": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
         "projectName": "Projet AdoNet",
-        "projectPath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
-        "packagesPath": "C:\\Users\\a774726\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\",
+        "projectPath": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
+        "packagesPath": "C:\\Users\\cessn\\.nuget\\packages\\",
+        "outputPath": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\a774726\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cessn\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Chart.js": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.11, )"
@@ -61,6 +65,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "WebMatrix.WebData": {
+              "target": "Package",
+              "version": "[2.0.30506, )"
             }
           },
           "imports": [

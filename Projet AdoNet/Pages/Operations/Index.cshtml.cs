@@ -11,17 +11,24 @@ namespace Projet_AdoNet.Pages.Operations
 {
     public class IndexModel : PageModel
     {
+        /*
         public CommercialTraitement _ct;
         public DataTable dt_ct = new DataTable();
+        */
+        readonly ActionCommercial lt = new ActionCommercial();
 
-        public IndexModel(CommercialTraitement ctrait)
+        public List<ProjetParCommerciaux> ProjetPC { get; set; }
+
+        private readonly ActionCommercial _ct;
+
+        public IndexModel(ActionCommercial ctrait)
         {
             _ct = ctrait;
         }
 
         public void OnGet()
         {
-            dt_ct = _ct.Load_Groups();
+            ProjetPC = _ct.CountProjectPerCommercial();
         }
     }
 }

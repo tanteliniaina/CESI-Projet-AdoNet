@@ -7,20 +7,17 @@ using System.Threading.Tasks;
 
 namespace Projet_AdoNet.Models
 {
-    public class CommercialListeProjet
+    public class ActionClient
     {
-
-
         public SqlConnection sqlconn = new SqlConnection("Data Source=ACER-JEFF;Initial Catalog=ProjetADONet;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
 
-        public List<Projet> GetProject(int? idComm)
+        public List<ProjetParClients> TopTenCustomers()
         {
-            List<Projet> dt = new List<Projet>();
+            List<ProjetParClients> dt = new List<ProjetParClients>();
 
-            using (var cmd = new SqlCommand("CountProjet", sqlconn))
+            using (var cmd = new SqlCommand("TopTenClient", sqlconn))
             {
-                cmd.Parameters.Add(new SqlParameter("@idCommercial", idComm));
                 cmd.CommandType = CommandType.StoredProcedure;
                 sqlconn.Open();
 
@@ -28,19 +25,16 @@ namespace Projet_AdoNet.Models
 
                 while (reader.Read())
                 {
-                Projet prj = new Projet();
+                    ProjetParClients prj = new ProjetParClients();
 
                     prj.Id = reader.GetInt32(0);
                     prj.Nom = reader.GetString(1);
-                    prj.DateCreation = reader.GetDateTime(2);
-                    prj.DateFinalisation = reader.GetDateTime(3);
-                    prj.Ville = reader.GetString(4);
-                    prj.IdStatut= reader.GetInt32(5);
-                    prj.IdCommercial = reader.GetInt32(6);
-                    prj.IdClient = reader.GetInt32(7);
+                    prj.Prenom = reader.GetString(2);
+                    prj.NombreProjet = reader.GetInt32(3);
 
                     dt.Add(prj);
                 }
+                sqlconn.Close();
                 return dt;
             }
         }

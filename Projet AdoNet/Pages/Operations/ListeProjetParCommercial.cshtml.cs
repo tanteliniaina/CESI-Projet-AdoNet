@@ -10,14 +10,14 @@ namespace Projet_AdoNet.Pages.Operations
 {
     public class ListeProjetParCommercialModel : PageModel
     {
-        private readonly CommercialListeProjet _context;
+        private readonly ActionCommercial _context;
 
-        public ListeProjetParCommercialModel(CommercialListeProjet context)
+        public ListeProjetParCommercialModel(ActionCommercial context)
         {
             _context = context;
         }
 
-        readonly CommercialListeProjet lt = new CommercialListeProjet();
+        readonly ActionCommercial lt = new ActionCommercial();
 
         public List<Projet> Projet { get; set; }
 

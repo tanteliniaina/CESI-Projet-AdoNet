@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Projet_AdoNet.Pages
+namespace Projet_AdoNet.Pages.Operations
 {
-    public class BIModel : PageModel
+    public class ListeDesClientsModel : PageModel
     {
         public void OnGet()
         {

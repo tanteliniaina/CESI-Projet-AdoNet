@@ -41,7 +41,8 @@
                 <td>
                     <a asp-page="./Edit" asp-route-id="@item.Id">Modifier</a> |
                     <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a>
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a> |
+                    <a asp-page="../Operations/ListeProjetParCommercial" asp-route-id="@item.Id">Afficher projet</a>
                 </td>
             </tr>
         }

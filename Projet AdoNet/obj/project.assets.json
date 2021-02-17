@@ -2,6 +2,30 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Chart.js/2.9.3": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.WebPages.Data/2.0.20710": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WebMatrix.Data.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebMatrix.Data.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.WebData/2.0.20710": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.Data": "[2.0.20710, 2.1.0)"
+        },
+        "compile": {
+          "lib/net40/WebMatrix.WebData.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WebMatrix.WebData.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2743,10 +2767,57 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "WebMatrix.WebData/2.0.30506": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.WebData": "2.0.20710"
+        }
       }
     }
   },
   "libraries": {
+    "Chart.js/2.9.3": {
+      "sha512": "SY8PuXOJANgsEGMtuXPb/gxazfXdySUuFwTPbQUbw/YKiltR6FJ3mXrLFpr6N2MSCS7oUtfOhTotxLifyJcQNA==",
+      "type": "package",
+      "path": "chart.js/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "chart.js.2.9.3.nupkg.sha512",
+        "chart.js.nuspec",
+        "content/Content/Chart.css",
+        "content/Content/Chart.min.css",
+        "content/Scripts/Chart.js",
+        "content/Scripts/Chart.min.js"
+      ]
+    },
+    "Microsoft.AspNet.WebPages.Data/2.0.20710": {
+      "sha512": "PTwS5C1vF69FDikWhUkJZ4qb96yxtdVuVR90Hjt7e/GDNVOeR7tXMYWHs9cPP0v35EiO+V6BUj1c8dNCUXW7Ag==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages.data/2.0.20710",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebMatrix.Data.dll",
+        "lib/net40/WebMatrix.Data.xml",
+        "microsoft.aspnet.webpages.data.2.0.20710.nupkg.sha512",
+        "microsoft.aspnet.webpages.data.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages.WebData/2.0.20710": {
+      "sha512": "BZsx1iI2qZ9c21QKD3KAk7BGrGQ3gkGw8a7AdkmDNJoK+RyEcEy46lyzpyiD7BkVKvlszO7er2m2nR2NWK6u9Q==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages.webdata/2.0.20710",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/WebMatrix.WebData.dll",
+        "lib/net40/WebMatrix.WebData.xml",
+        "microsoft.aspnet.webpages.webdata.2.0.20710.nupkg.sha512",
+        "microsoft.aspnet.webpages.webdata.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "sha512": "Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
       "type": "package",
@@ -8810,34 +8881,47 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "WebMatrix.WebData/2.0.30506": {
+      "sha512": "kDz6OjnVNm/asletyqpHmb0y/56KduvxWhi6KJdAgnT45LZPu6IUETXNISA1icfoRwBWrUirQxAZw6JwhYrqoQ==",
+      "type": "package",
+      "path": "webmatrix.webdata/2.0.30506",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "webmatrix.webdata.2.0.30506.nupkg.sha512",
+        "webmatrix.webdata.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Chart.js >= 2.9.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.11",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.11",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.11",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "WebMatrix.WebData >= 2.0.30506"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\a774726\\.nuget\\packages\\": {},
+    "C:\\Users\\cessn\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
+      "projectUniqueName": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
       "projectName": "Projet AdoNet",
-      "projectPath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
-      "packagesPath": "C:\\Users\\a774726\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\",
+      "projectPath": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\Projet AdoNet.csproj",
+      "packagesPath": "C:\\Users\\cessn\\.nuget\\packages\\",
+      "outputPath": "D:\\Projet AdoNet\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\a774726\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cessn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8864,6 +8948,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "Chart.js": {
+            "target": "Package",
+            "version": "[2.9.3, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.11, )"
@@ -8881,6 +8969,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"
+          },
+          "WebMatrix.WebData": {
+            "target": "Package",
+            "version": "[2.0.30506, )"
           }
         },
         "imports": [
@@ -8907,10 +8999,24 @@
   },
   "logs": [
     {
-      "code": "Undefined",
+      "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache C:\\Users\\a774726\\Desktop\\Projet Ado.net\\CESI-Projet-AdoNet\\Projet AdoNet\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Le package 'Microsoft.AspNet.WebPages.Data 2.0.20710' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETCoreApp,Version=v3.1'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "Microsoft.AspNet.WebPages.Data",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'Microsoft.AspNet.WebPages.WebData 2.0.20710' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet '.NETCoreApp,Version=v3.1'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "Microsoft.AspNet.WebPages.WebData",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
     }
   ]
 }
