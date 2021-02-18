@@ -28,7 +28,7 @@ namespace Projet_AdoNet.Pages.Operations
 
         public void OnGet()
         {
-            ProjetPC = _ct.CountProjectPerCommercial();
+            ProjetPC = _ct.AllCommercial();
         }
     }
 }

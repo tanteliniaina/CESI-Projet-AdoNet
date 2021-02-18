@@ -7,46 +7,16 @@ using System.Threading.Tasks;
 
 namespace Projet_AdoNet.Models
 {
-    public class ActionCommercial
+    public class ActionProjet
     {
-
-
         public SqlConnection sqlconn = new SqlConnection("Data Source=ACER-JEFF;Initial Catalog=ProjetADONet;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
-        public List<ProjetParCommerciaux> AllCommercial()
-        {
-            List<ProjetParCommerciaux> dt = new List<ProjetParCommerciaux>();
-
-            using (var cmd = new SqlCommand("NbProjetCommerciaux", sqlconn))
-            {
-                cmd.CommandType = CommandType.StoredProcedure;
-                sqlconn.Open();
-
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    ProjetParCommerciaux prj = new ProjetParCommerciaux();
-
-                    prj.Id = reader.GetInt32(0);
-                    prj.Nom = reader.GetString(1);
-                    prj.Prenom = reader.GetString(2);
-                    prj.NombreProjet = reader.GetInt32(3);
-
-                    dt.Add(prj);
-                }
-                sqlconn.Close();
-                return dt;
-            }
-        }
-
-        public List<Projet> DetailProjectCommercial(int? idComm)
+        public List<Projet> AllProject()
         {
             List<Projet> dt = new List<Projet>();
 
-            using (var cmd = new SqlCommand("DetailProjetCommercial", sqlconn))
+            using (var cmd = new SqlCommand("ListeProjet", sqlconn))
             {
-                cmd.Parameters.Add(new SqlParameter("@idCommercial", idComm));
                 cmd.CommandType = CommandType.StoredProcedure;
                 sqlconn.Open();
 
@@ -54,14 +24,14 @@ namespace Projet_AdoNet.Models
 
                 while (reader.Read())
                 {
-                Projet prj = new Projet();
+                    Projet prj = new Projet();
 
                     prj.Id = reader.GetInt32(0);
                     prj.Nom = reader.GetString(1);
                     prj.DateCreation = reader.GetDateTime(2);
                     prj.DateFinalisation = reader.GetDateTime(3);
                     prj.Ville = reader.GetString(4);
-                    prj.IdStatut= reader.GetInt32(5);
+                    prj.IdStatut = reader.GetInt32(5);
                     prj.IdCommercial = reader.GetInt32(6);
                     prj.IdClient = reader.GetInt32(7);
 
@@ -72,11 +42,11 @@ namespace Projet_AdoNet.Models
             }
         }
 
-        public List<ProjetParCommerciaux> TopTenCommercials()
+        public List<ProjetParVille> FilterByCity()
         {
-            List<ProjetParCommerciaux> dt = new List<ProjetParCommerciaux>();
+            List<ProjetParVille> dt = new List<ProjetParVille>();
 
-            using (var cmd = new SqlCommand("TopTenCommercial", sqlconn))
+            using (var cmd = new SqlCommand("ProjetGroupByVille", sqlconn))
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 sqlconn.Open();
@@ -85,12 +55,10 @@ namespace Projet_AdoNet.Models
 
                 while (reader.Read())
                 {
-                    ProjetParCommerciaux prj = new ProjetParCommerciaux();
+                    ProjetParVille prj = new ProjetParVille();
 
-                    prj.Id = reader.GetInt32(0);
-                    prj.Nom = reader.GetString(1);
-                    prj.Prenom = reader.GetString(2);
-                    prj.NombreProjet = reader.GetInt32(3);
+                    prj.NombreProjet = reader.GetInt32(0);
+                    prj.Ville = reader.GetString(1);
 
                     dt.Add(prj);
                 }
@@ -98,5 +66,39 @@ namespace Projet_AdoNet.Models
                 return dt;
             }
         }
+
+
+        public List<Projet> ProjectPerCity(string ville)
+        {
+            List<Projet> dt = new List<Projet>();
+
+            using (var cmd = new SqlCommand("ListeProjetParVille", sqlconn))
+            {
+                cmd.Parameters.Add(new SqlParameter("@ville", ville));
+                cmd.CommandType = CommandType.StoredProcedure;
+                sqlconn.Open();
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    Projet prj = new Projet();
+
+                    prj.Id = reader.GetInt32(0);
+                    prj.Nom = reader.GetString(1);
+                    prj.DateCreation = reader.GetDateTime(2);
+                    prj.DateFinalisation = reader.GetDateTime(3);
+                    prj.Ville = reader.GetString(4);
+                    prj.IdStatut = reader.GetInt32(5);
+                    prj.IdCommercial = reader.GetInt32(6);
+                    prj.IdClient = reader.GetInt32(7);
+
+                    dt.Add(prj);
+                }
+                sqlconn.Close();
+                return dt;
+            }
+        }
+
     }
 }

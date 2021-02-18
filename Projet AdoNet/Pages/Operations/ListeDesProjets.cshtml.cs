@@ -8,22 +8,22 @@ using Projet_AdoNet.Models;
 
 namespace Projet_AdoNet.Pages.Operations
 {
-    public class ListeDesClientsModel : PageModel
+    public class ListeDesProjetsModel : PageModel
     {
-        readonly ActionClient lt = new ActionClient();
+        readonly ActionProjet lt = new ActionProjet();
 
-        public List<ProjetParClients> ProjetPC { get; set; }
+        public List<Projet> ProjetPC { get; set; }
 
-        private readonly ActionClient _ct;
+        private readonly ActionProjet _ct;
 
-        public ListeDesClientsModel(ActionClient ctrait)
+        public ListeDesProjetsModel(ActionProjet ctrait)
         {
             _ct = ctrait;
         }
 
         public void OnGet()
         {
-            ProjetPC = _ct.AllCustomer();
+            ProjetPC = _ct.AllProject();
         }
     }
 }

@@ -36,7 +36,7 @@ namespace Projet_AdoNet
             services.AddSingleton<CommercialTraitement>();
             services.AddSingleton<ActionCommercial>();
             services.AddSingleton<ActionClient>();
-            //services.AddSingleton<Chart>();
+            services.AddSingleton<ActionProjet>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

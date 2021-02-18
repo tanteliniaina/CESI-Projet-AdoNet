@@ -8,28 +8,28 @@ using Projet_AdoNet.Models;
 
 namespace Projet_AdoNet.Pages.Operations
 {
-    public class ListeProjetParCommercialModel : PageModel
+    public class DetailsProjetParVilleModel : PageModel
     {
-        private readonly ActionCommercial _context;
+        private readonly ActionProjet _context;
 
-        public ListeProjetParCommercialModel(ActionCommercial context)
+        public DetailsProjetParVilleModel(ActionProjet context)
         {
             _context = context;
         }
 
-        readonly ActionCommercial lt = new ActionCommercial();
+        readonly ActionProjet lt = new ActionProjet();
 
         public List<Projet> Projet { get; set; }
 
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public async Task<IActionResult> OnGetAsync(string ville)
         {
-            if (id == null)
+            if (ville == "")
             {
                 return NotFound();
             }
 
-            Projet = lt.DetailProjectCommercial(id);
+            Projet = lt.ProjectPerCity(ville);
 
             if (Projet == null)
             {

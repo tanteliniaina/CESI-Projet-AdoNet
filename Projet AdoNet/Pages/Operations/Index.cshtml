@@ -4,10 +4,11 @@
     ViewData["Title"] = "Intelligence de l'entreprise [B.I]";
 }
 
+<br />
+
 <div class="text-center">
     <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
-
 
 <br />
 
@@ -34,13 +35,15 @@
                             </div>
                             <!--deuxième bouton-->
                             <div class="btn-group mr-2" role="group" aria-label="Second group">
-                                <a class="btn btn-secondary" data-toggle="collapse" asp-page="/Operations/TopDixCommerciaux" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <a class="btn btn-secondary" asp-page="/Operations/Index">
                                     Afficher tous
                                 </a>
                             </div>
                             <!--troisieme bouton-->
                             <div class="btn-group" role="group" aria-label="Third group">
-
+                                <a class="btn btn-secondary" asp-page="/Operations/TopDixCommerciaux">
+                                    Top 6
+                                </a>
                             </div>
                         </div>
                         <!--fin de groupe de bouton-->
@@ -153,7 +156,7 @@
                             <!--deuxième bouton-->
                             <div class="btn-group mr-2" role="group" aria-label="Second group">
                                 <a class="btn btn-secondary" asp-area="" asp-page="/Operations/TopDixClients">
-                                    Top 10
+                                    Top 6
                                 </a>
                             </div>
                             <!--troisieme bouton-->
@@ -210,11 +213,11 @@
         <table class="table table-striped table caption-top">
             <thead>
                 <tr>
-                    <th scope="col">Id</th>
+                    <th scope="col">Ref. Comm</th>
                     <th scope="col">Nom</th>
                     <th scope="col">Prenom</th>
                     <th scope="col">Nombre de projet</th>
-                    <th scope="col">Actions</th>
+                    <th scope="col">Action</th>
                 </tr>
             </thead>
             <tbody>

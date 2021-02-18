@@ -8,6 +8,7 @@ namespace Projet_AdoNet.Models
 {
     public class ProjetParCommerciaux
     {
+        /*Utiliser pour la liste des projets par commerciaux*/
         [Key]
         public int Id { get; set; }
         public string Nom { get; set; }

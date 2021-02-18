@@ -8,16 +8,16 @@ using Projet_AdoNet.Models;
 
 namespace Projet_AdoNet.Pages.Operations
 {
-    public class ListeProjetParCommercialModel : PageModel
+    public class ListeProjetParClientModel : PageModel
     {
-        private readonly ActionCommercial _context;
+        private readonly ActionClient _context;
 
-        public ListeProjetParCommercialModel(ActionCommercial context)
+        public ListeProjetParClientModel(ActionClient context)
         {
             _context = context;
         }
 
-        readonly ActionCommercial lt = new ActionCommercial();
+        readonly ActionClient lt = new ActionClient();
 
         public List<Projet> Projet { get; set; }
 
@@ -29,7 +29,7 @@ namespace Projet_AdoNet.Pages.Operations
                 return NotFound();
             }
 
-            Projet = lt.DetailProjectCommercial(id);
+            Projet = lt.DetailProjectClient(id);
 
             if (Projet == null)
             {

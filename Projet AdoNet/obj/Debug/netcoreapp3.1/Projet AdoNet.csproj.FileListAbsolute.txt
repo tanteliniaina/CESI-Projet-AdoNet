@@ -400,3 +400,7 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\FiltreProjetParDelais.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\FiltreProjetParVille.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeDesClients.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ComparaisonCommerciaux.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\DetailsProjetParVille.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeDesProjets.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeProjetParClient.cshtml.g.cs
