@@ -10,8 +10,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projet_AdoNet.Data;
+
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
+
+using Projet_AdoNet.Models;
+
 
 namespace Projet_AdoNet
 {
@@ -30,7 +34,7 @@ namespace Projet_AdoNet
           services.AddRazorPages();
             //services.AddSession();
 
-            /* Authenfication garde
+            //* Authenfication garde
             services.AddAuthentication(options =>
             {
                 options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
@@ -41,17 +45,30 @@ namespace Projet_AdoNet
                 options.LoginPath = new PathString("/Index");
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(5.0);
             });
-            */
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            
             // configuration base de donnée
-            services.AddDbContext<Projet_AdoNetContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
+            //services.AddDbContext<Projet_AdoNetContext>(options =>
+            // options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
+            services.AddDbContext<Projet_AdoNetContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
 
-           /* configuration Razor Pages 
+            //* configuration Razor Pages 
             services.AddMvc().AddRazorPagesOptions(options =>
             {
-                options.Conventions.AuthorizeFolder("/");
+                //options.Conventions.AuthorizeFolder("/");
                 options.Conventions.AllowAnonymousToPage("/Index");
-            });*/
+            });
+
+            /*Connexion personnalisé*/
+            /*services.AddSingleton<Connexion>();
+            services.AddSingleton<CommercialTraitement>();
+            services.AddSingleton<CommercialListeProjet>();*/
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -60,10 +77,10 @@ namespace Projet_AdoNet
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-              
-                //app.UseBrowserLink();
-                
-               
+
+                // app.UseBrowserLink();
+
+
             }
             else
             {
@@ -77,9 +94,13 @@ namespace Projet_AdoNet
 
             app.UseRouting();
             //connexion configuration
-            //app.UseAuthorization();
+            app.UseAuthorization();
 
-           // app.UseSession();
+            // app.UseSession();
+            app.UseHttpsRedirection();
+            app.UseStaticFiles();
+            app.UseCookiePolicy();
+
 
 
             app.UseEndpoints(endpoints =>

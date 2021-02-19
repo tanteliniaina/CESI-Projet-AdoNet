@@ -9,14 +9,14 @@ namespace Projet_AdoNet.Models
     public class Projet
     {
         [Key]
-        public int idProjet { get; set; }
-        public string nomProjet { get; set; }
-        public DateTime dateCreation { get; set; }
-        public DateTime dateFinalisation { get; set; }
-        public string villeProjet { get; set; }
-        public int idStatutProjet { get; set; }
-        public int idCommercial { get; set; }
-        public int idClient { get; set; }
+        public int Id { get; set; }
+        public string Nom { get; set; }
+        public DateTime DateCreation { get; set; }
+        public DateTime DateFinalisation { get; set; }
+        public string Ville { get; set; }
+        public int IdStatut { get; set; }
+        public int IdCommercial { get; set; }
+        public int IdClient { get; set; }
 
     }
 }

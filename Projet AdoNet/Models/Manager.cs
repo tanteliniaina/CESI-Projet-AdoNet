@@ -22,14 +22,16 @@ namespace Projet_AdoNet.Models
 
         public string Login { get; set; }
 
-      ///  public string Pseudo { get; set; }
+        ///  public string Pseudo { get; set; }
+
         [Required]
         [RegularExpression(@"^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,15}$")]
         public string Password { get; set; }
 
-        [NotMapped]
+
+        /*[NotMapped]
         [Required]
-        [System.ComponentModel.DataAnnotations.Compare("Password")]
+        [System.ComponentModel.DataAnnotations.Compare("Password")]*/
         public string ConfirmPassword { get; set; }
 
     }

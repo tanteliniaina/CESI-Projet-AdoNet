@@ -2,7 +2,7 @@
 @model Projet_AdoNet.Pages.Commerciaux.IndexModel
 
 @{
-    ViewData["Title"] = "Administration - Commerciaux";
+    ViewData["Title"] = "Gestion des Commerciaux";
 }
 
 <br />
@@ -14,16 +14,16 @@
 <br />
 
 <p>
-    <a asp-page="Create" class="btn btn-primary btn-lg" tabindex="-1" role="button">Nouveau commercial</a>
+    <a asp-page="Create" class="btn btn-primary btn-lg" role="button">Créer un Commercial</a>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Commercial[0].nomCommercial)
+                @Html.DisplayNameFor(model => model.Commercial[0].Nom)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Commercial[0].prenomCommercial)
+                @Html.DisplayNameFor(model => model.Commercial[0].Prenom)
             </th>
             <th></th>
         </tr>
@@ -33,15 +33,15 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.nomCommercial)
+                    @Html.DisplayFor(modelItem => item.Nom)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.prenomCommercial)
+                    @Html.DisplayFor(modelItem => item.Prenom)
                 </td>
                 <td>
-                    <a asp-page="./Edit" asp-route-id="@item.idCommercial">Modifier</a> |
-                    <a asp-page="./Details" asp-route-id="@item.idCommercial">Détails</a> |
-                    <a asp-page="./Delete" asp-route-id="@item.idCommercial">Supprimer</a>
+                    <a asp-page="./Edit" asp-route-id="@item.Id">Modifier</a> |
+                    <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.Id">Supprimer</a>
                 </td>
             </tr>
         }

@@ -29,7 +29,7 @@ namespace Projet_AdoNet.Pages.Clients
                 return NotFound();
             }
 
-            Client = await _context.Client.FirstOrDefaultAsync(m => m.idClient == id);
+            Client = await _context.Client.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Client == null)
             {

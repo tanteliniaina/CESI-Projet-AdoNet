@@ -30,7 +30,7 @@ namespace Projet_AdoNet.Pages.Clients
                 return NotFound();
             }
 
-            Client = await _context.Client.FirstOrDefaultAsync(m => m.idClient == id);
+            Client = await _context.Client.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Client == null)
             {
@@ -56,7 +56,7 @@ namespace Projet_AdoNet.Pages.Clients
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ClientExists(Client.idClient))
+                if (!ClientExists(Client.Id))
                 {
                     return NotFound();
                 }
@@ -71,7 +71,7 @@ namespace Projet_AdoNet.Pages.Clients
 
         private bool ClientExists(int id)
         {
-            return _context.Client.Any(e => e.idClient == id);
+            return _context.Client.Any(e => e.Id == id);
         }
     }
 }

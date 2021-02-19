@@ -30,7 +30,7 @@ namespace Projet_AdoNet.Pages.Projets
                 return NotFound();
             }
 
-            Projet = await _context.Projet.FirstOrDefaultAsync(m => m.idProjet == id);
+            Projet = await _context.Projet.FirstOrDefaultAsync(m => m.Id == id);
 
             if (Projet == null)
             {
@@ -56,7 +56,7 @@ namespace Projet_AdoNet.Pages.Projets
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ProjetExists(Projet.idProjet))
+                if (!ProjetExists(Projet.Id))
                 {
                     return NotFound();
                 }
@@ -71,7 +71,7 @@ namespace Projet_AdoNet.Pages.Projets
 
         private bool ProjetExists(int id)
         {
-            return _context.Projet.Any(e => e.idProjet == id);
+            return _context.Projet.Any(e => e.Id == id);
         }
     }
 }

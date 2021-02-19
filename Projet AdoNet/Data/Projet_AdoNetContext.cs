@@ -19,18 +19,13 @@ namespace Projet_AdoNet.Data
             : base(options)
         {
         }
-
         public DbSet<Projet_AdoNet.Models.Client> Client { get; set; }
-
         public DbSet<Projet_AdoNet.Models.Commercial> Commercial { get; set; }
-
-        public DbSet<Projet_AdoNet.Models.Projet> Projet { get; set; }
-
-        public DbSet<Projet_AdoNet.Models.Manager> Manager { get; set; }
+      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            ////modelBuilder.Entity<Login>(entity =>
+            ////modelBuilder.Entity<Manager>(entity =>
             ////{
             ////    entity.Property(e => e.Id).HasColumnName("id");
 
@@ -60,14 +55,20 @@ namespace Projet_AdoNet.Data
             try
             {
                 // Settings.
-                SqlParameter usernameParam = new SqlParameter("@login", usernameVal ?? (object)DBNull.Value);
-                SqlParameter passwordParam = new SqlParameter("@password", passwordVal ?? (object)DBNull.Value);
+                //SqlParameter usernameParam = new SqlParameter("@Login", usernameVal ?? (object)DBNull.Value);
+                //SqlParameter passwordParam = new SqlParameter("@Password", passwordVal ?? (object)DBNull.Value);
+
+
+                SqlParameter usernameParam = new SqlParameter("@Login", usernameVal);
+                SqlParameter passwordParam = new SqlParameter("@Password", passwordVal);
 
                 // Processing.
                 string sqlQuery = "EXEC	[dbo].[LoginByPseudoPassword] " +
-                                    "@login, @password";
+                                    "@Login, @Password";
+                Console.WriteLine(lst);
 
                 lst = await this.Query<LoginByPseudoPassword>().FromSql(sqlQuery, usernameParam, passwordParam).ToListAsync();
+                Console.WriteLine(lst);
             }
             catch (Exception ex)
             {
@@ -77,6 +78,11 @@ namespace Projet_AdoNet.Data
             // Info.
             return lst;
         }
+
+
+        public DbSet<Projet_AdoNet.Models.StatutProjet> StatutProjet { get; set; }
+        public DbSet<Projet_AdoNet.Models.Projet> Projet { get; set; }
+        public DbSet<Projet_AdoNet.Models.Manager> Manager { get; set; }
 
     }
 }
