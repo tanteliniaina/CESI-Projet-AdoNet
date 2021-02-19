@@ -20,6 +20,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6741392ae03e44907ceae0dc49749345f9af3aa8", @"/Pages/Projets/Details.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9af4978b9c2bfca24ef48e96efe5f8573634464", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3714ca17c57ffa4b3b747368a1e88d84a171d96c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Projets_Details : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -179,7 +180,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6741392ae03e44907ceae0dc49749345f9af3aa88776", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6741392ae03e44907ceae0dc49749345f9af3aa88934", async() => {
                 WriteLiteral("Modifier");
             }
             );
@@ -210,7 +211,7 @@ using Projet_AdoNet;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6741392ae03e44907ceae0dc49749345f9af3aa810926", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6741392ae03e44907ceae0dc49749345f9af3aa811084", async() => {
                 WriteLiteral("Revenir à la liste");
             }
             );

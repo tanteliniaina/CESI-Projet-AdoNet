@@ -207,8 +207,6 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.Views.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
@@ -225,9 +223,7 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Micros
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
@@ -256,6 +252,7 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\SQLite
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -266,6 +263,7 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
@@ -319,15 +317,11 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\ru\Mic
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
@@ -336,8 +330,6 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtim
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfoInputs.cache
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.AssemblyInfo.cs
@@ -368,8 +360,17 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Details.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Edit.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Managers\Index.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ComparaisonCommerciaux.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\DetailsProjetParVille.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\FiltreProjetParDelais.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\FiltreProjetParVille.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\Index.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeDesClients.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeDesProjets.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeProjetParClient.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeProjetParCommercial.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\TopDixClients.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\TopDixCommerciaux.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Create.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Projets\Delete.cshtml.g.cs
@@ -385,6 +386,7 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Statuts\Index.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\_ViewImports.cshtml.g.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cache
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.RazorTargetAssemblyInfo.cs
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.Views.pdb
@@ -392,15 +394,17 @@ D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.pdb
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.genruntimeconfig.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\WebMatrix.Data.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\WebMatrix.WebData.dll
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\TopDixClients.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\Humanizer.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Projet AdoNet.csprojAssemblyReference.cache
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\TopDixCommerciaux.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\FiltreProjetParDelais.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\FiltreProjetParVille.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeDesClients.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ComparaisonCommerciaux.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\DetailsProjetParVille.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeDesProjets.cshtml.g.cs
-D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Operations\ListeProjetParClient.cshtml.g.cs
+D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\obj\Debug\netcoreapp3.1\Razor\Pages\Accueil.cshtml.g.cs

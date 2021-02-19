@@ -5,7 +5,7 @@
 }
 
 <br />
-
+<!--
 <div class="text-center">
     <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
@@ -93,3 +93,18 @@ var myChart = new Chart(ctx, {
     }
 });
 </script>
+    -->
+
+<form  method="post" asp-page="Index">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Identifiant</label>
+        <input type="text"  asp-for="@Model.manager.Login" class="form-control" id="exampleInputEmail1" placeholder="Entrer votre identifiant">
+        <small id="emailHelp" class="form-text text-muted">exemple : "mabertra" pour Bertrand Mattou</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password"  asp-for="@Model.manager.Password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+
+    <button type="submit" class="btn btn-primary">S'authentifier</button>
+</form>

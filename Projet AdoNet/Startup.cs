@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projet_AdoNet.Data;
 using Projet_AdoNet.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace Projet_AdoNet
 {
@@ -26,9 +29,36 @@ namespace Projet_AdoNet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+            services.AddSession();
+            //utilisation de mvc
+            services.AddMvc(option => option.EnableEndpointRouting = false);
 
-            services.AddDbContext<Projet_AdoNetContext>(options =>
+            
+            /*
+            services.AddAuthentication(options =>
+            {
+                options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+            }).AddCookie(options =>
+            {
+                options.LoginPath = new PathString("/Index");
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(5.0);
+            });
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            */
+            //services.AddRazorPages();
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AllowAnonymousToPage("/Index");
+            });
+
+            var connection = services.AddDbContext<Projet_AdoNetContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
 
             /*Connexion personnalisé*/
@@ -53,17 +83,25 @@ namespace Projet_AdoNet
                 app.UseHsts();
             }
 
+            app.UseSession();
+            app.UseMvc();
+            
+         
+           /*
+
+             */
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
-
+           
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
+            
         }
     }
 }

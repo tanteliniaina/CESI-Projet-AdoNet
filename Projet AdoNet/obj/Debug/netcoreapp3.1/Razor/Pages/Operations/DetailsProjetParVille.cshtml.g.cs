@@ -20,6 +20,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a0c840f50672ec523df0fdcda8b5e5fa7cf4b6f5", @"/Pages/Operations/DetailsProjetParVille.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9af4978b9c2bfca24ef48e96efe5f8573634464", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3714ca17c57ffa4b3b747368a1e88d84a171d96c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Operations_DetailsProjetParVille : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -141,7 +142,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                <td>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0c840f50672ec523df0fdcda8b5e5fa7cf4b6f56845", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0c840f50672ec523df0fdcda8b5e5fa7cf4b6f57003", async() => {
                 WriteLiteral("Afficher le client");
             }
             );
@@ -172,7 +173,7 @@ using Projet_AdoNet;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral(" |\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0c840f50672ec523df0fdcda8b5e5fa7cf4b6f59064", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a0c840f50672ec523df0fdcda8b5e5fa7cf4b6f59222", async() => {
                 WriteLiteral("Afficher le commercial");
             }
             );

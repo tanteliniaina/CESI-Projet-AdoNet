@@ -20,6 +20,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3618caba9985a7f19b6754edc178c9b1cbd20f22", @"/Pages/Operations/ListeDesClients.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9af4978b9c2bfca24ef48e96efe5f8573634464", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3714ca17c57ffa4b3b747368a1e88d84a171d96c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Operations_ListeDesClients : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -123,7 +124,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3618caba9985a7f19b6754edc178c9b1cbd20f226024", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3618caba9985a7f19b6754edc178c9b1cbd20f226182", async() => {
                 WriteLiteral("Afficher les projets");
             }
             );

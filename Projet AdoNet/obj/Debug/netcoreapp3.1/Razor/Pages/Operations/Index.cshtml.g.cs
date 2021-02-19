@@ -20,6 +20,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"20de387ce7b689cacbcad9210904b55a0b55208d", @"/Pages/Operations/Index.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a9af4978b9c2bfca24ef48e96efe5f8573634464", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3714ca17c57ffa4b3b747368a1e88d84a171d96c", @"/Pages/_ViewImports.cshtml")]
     public class Pages_Operations_Index : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
@@ -106,7 +107,7 @@ using Projet_AdoNet;
                             <!--deuxième bouton-->
                             <div class=""btn-group mr-2"" role=""group"" aria-label=""Second group"">
                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d8781", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d8939", async() => {
                 WriteLiteral("\r\n                                    Afficher tous\r\n                                ");
             }
             );
@@ -123,7 +124,7 @@ using Projet_AdoNet;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </div>\r\n                            <!--troisieme bouton-->\r\n                            <div class=\"btn-group\" role=\"group\" aria-label=\"Third group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d10324", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d10482", async() => {
                 WriteLiteral("\r\n                                    Top 6\r\n                                ");
             }
             );
@@ -163,7 +164,7 @@ using Projet_AdoNet;
                                             </div>
                                             <select class=""custom-select"" id=""Comm1"">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d12978", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d13136", async() => {
                 WriteLiteral("-Choisir-");
             }
             );
@@ -188,7 +189,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("                                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d14523", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d14681", async() => {
 #nullable restore
 #line 71 "D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\Pages\Operations\Index.cshtml"
                                                                         Write(Html.DisplayFor(Model => item.Prenom));
@@ -242,7 +243,7 @@ using Projet_AdoNet;
                                             </div>
                                             <select class=""custom-select"" id=""Comm2"">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d17569", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d17727", async() => {
                 WriteLiteral("-Choisir-");
             }
             );
@@ -267,7 +268,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("                                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d19114", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d19272", async() => {
 #nullable restore
 #line 83 "D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\Pages\Operations\Index.cshtml"
                                                                         Write(Html.DisplayFor(Model => item.Prenom));
@@ -321,7 +322,7 @@ using Projet_AdoNet;
                                             </div>
                                             <select class=""custom-select"" id=""Comm3"">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d22160", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d22318", async() => {
                 WriteLiteral("-Choisir-");
             }
             );
@@ -346,7 +347,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("                                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d23705", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d23863", async() => {
 #nullable restore
 #line 95 "D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\Pages\Operations\Index.cshtml"
                                                                         Write(Html.DisplayFor(Model => item.Prenom));
@@ -400,7 +401,7 @@ using Projet_AdoNet;
                                             </div>
                                             <select class=""custom-select"" id=""Comm4"">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d26751", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d26909", async() => {
                 WriteLiteral("-Choisir-");
             }
             );
@@ -425,7 +426,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("                                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d28297", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d28455", async() => {
 #nullable restore
 #line 107 "D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\Pages\Operations\Index.cshtml"
                                                                         Write(Html.DisplayFor(Model => item.Prenom));
@@ -479,7 +480,7 @@ using Projet_AdoNet;
                                             </div>
                                             <select class=""custom-select"" id=""Comm5"">
                                                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d31347", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d31505", async() => {
                 WriteLiteral("-Choisir-");
             }
             );
@@ -504,7 +505,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("                                                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d32893", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d33051", async() => {
 #nullable restore
 #line 119 "D:\Projet AdoNet\CESI-Projet-AdoNet\Projet AdoNet\Pages\Operations\Index.cshtml"
                                                                         Write(Html.DisplayFor(Model => item.Prenom));
@@ -580,7 +581,7 @@ using Projet_AdoNet;
                         <!--début de groupe de bouton-->
                         <div class=""btn-toolbar"" role=""");
             WriteLiteral("toolbar\" aria-label=\"Toolbar with button groups\">\r\n                            <!--premier bouton-->\r\n                            <div class=\"btn-group mr-2\" role=\"group\" aria-label=\"First group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d36694", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d36852", async() => {
                 WriteLiteral("\r\n                                    Afficher tous\r\n                                ");
             }
             );
@@ -599,7 +600,7 @@ using Projet_AdoNet;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </div>\r\n                            <!--deuxième bouton-->\r\n                            <div class=\"btn-group mr-2\" role=\"group\" aria-label=\"Second group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d38443", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d38601", async() => {
                 WriteLiteral("\r\n                                    Top 6\r\n                                ");
             }
             );
@@ -641,7 +642,7 @@ using Projet_AdoNet;
                         <!--début de groupe de bouton-->
                         <div class=""btn-toolbar"" role=""toolbar"" aria-label=""Toolbar");
             WriteLiteral(" with button groups\">\r\n                            <!--premier bouton-->\r\n                            <div class=\"btn-group mr-2\" role=\"group\" aria-label=\"First group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d41251", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d41409", async() => {
                 WriteLiteral("\r\n                                    Afficher tous\r\n                                ");
             }
             );
@@ -660,7 +661,7 @@ using Projet_AdoNet;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </div>\r\n                            <!--deuxième bouton-->\r\n                            <div class=\"btn-group mr-2\" role=\"group\" aria-label=\"Second group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d43000", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d43158", async() => {
                 WriteLiteral("\r\n                                    Par Date\r\n                                ");
             }
             );
@@ -679,7 +680,7 @@ using Projet_AdoNet;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                            </div>\r\n                            <!--troisieme bouton-->\r\n                            <div class=\"btn-group\" role=\"group\" aria-label=\"Third group\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d44739", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d44897", async() => {
                 WriteLiteral("\r\n                                    Par ville\r\n                                ");
             }
             );
@@ -764,7 +765,7 @@ using Projet_AdoNet;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                        <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d48550", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "20de387ce7b689cacbcad9210904b55a0b55208d48708", async() => {
                 WriteLiteral("Afficher projet");
             }
             );
