@@ -3,13 +3,13 @@
 @using Microsoft.AspNetCore.Http
 
 @{
-    ViewData["Title"] = "Bienvenue ";
+    ViewData["Title"] = "Démarrage rapide!";
 }
 
 <br />
 
 <div class="text-center">
-    <h1 class="display-4">@ViewData["Title"]@HttpContext.Session.GetString("login")</h1>
+    <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
 
 @*Test de redirection*@

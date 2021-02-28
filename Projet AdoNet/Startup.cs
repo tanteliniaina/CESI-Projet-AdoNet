@@ -70,7 +70,6 @@ namespace Projet_AdoNet
             services.AddSingleton<ActionCommercial>();
             services.AddSingleton<ActionClient>();
             services.AddSingleton<ActionProjet>();
-            services.AddSingleton<CommercialComparaison>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -99,7 +99,7 @@ namespace Projet_AdoNet.Models
             }
         }
         
-        public List<ProjetParCommerciaux> Comparaison(int id1, int id2, int id3, int id4, int id5)
+        public List<ProjetParCommerciaux> Comparaison(int? id1, int? id2, int? id3, int? id4, int? id5)
         {
             List<ProjetParCommerciaux> dt = new List<ProjetParCommerciaux>();
 

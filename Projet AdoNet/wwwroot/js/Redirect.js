@@ -1,1 +1,1 @@
-﻿window.location.href = "https://localhost:5001/index";
+﻿window.location.href = "/index";
