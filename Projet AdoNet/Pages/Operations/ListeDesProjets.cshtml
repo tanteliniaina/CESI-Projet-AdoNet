@@ -1,8 +1,17 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.ListeDesProjetsModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "La liste des projets";
 }
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
 
 <br />
 

@@ -1,10 +1,19 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.IndexModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Intelligence de l'entreprise [B.I]";
 }
 
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
+
 <br />
+
 
 <div class="text-center">
     <h1 class="display-4">@ViewData["Title"]</h1>
@@ -60,67 +69,70 @@
                                         <h5 class="card-title">Selectionner 2 à 5 personnes</h5>
                                         <!--début de filtre-->
                                         <!--collapse pour les filtres de comparaison-->
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label class="input-group-text" for="Comm1">Commercial N° 1</label>
+                                        <form method="post" asp-page="Index">
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="Comm1">Commercial N° 1</label>
+                                                </div>
+                                                <select class="custom-select" name="id11" asp-for="@Model.commerialComp.Id1" id="Comm1">
+                                                    <option value="1996456789">-Choisir-</option>
+                                                    @foreach (var item in Model.ProjetPC)
+                                                    {
+                                                        <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
+                                                    }
+                                                </select>
                                             </div>
-                                            <select class="custom-select" id="Comm1">
-                                                <option value="">-Choisir-</option>
-                                                @foreach (var item in Model.ProjetPC)
-                                                {
-                                                    <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
-                                                }
-                                            </select>
-                                        </div>
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label class="input-group-text" for="Comm2">Commercial N° 2</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="Comm2">Commercial N° 2</label>
+                                                </div>
+                                                <select class="custom-select" name="id22" asp-for="@Model.commerialComp.Id2" id="Comm2">
+                                                    <option value="1996456789">-Choisir-</option>
+                                                    @foreach (var item in Model.ProjetPC)
+                                                    {
+                                                        <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
+                                                    }
+                                                </select>
                                             </div>
-                                            <select class="custom-select" id="Comm2">
-                                                <option value="">-Choisir-</option>
-                                                @foreach (var item in Model.ProjetPC)
-                                                {
-                                                    <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
-                                                }
-                                            </select>
-                                        </div>
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label class="input-group-text" for="Comm3">Commercial N° 3</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="Comm3">Commercial N° 3</label>
+                                                </div>
+                                                <select class="custom-select" name="id33" asp-for="@Model.commerialComp.Id3" id="Comm3">
+                                                    <option value="1996456789">-Choisir-</option>
+                                                    @foreach (var item in Model.ProjetPC)
+                                                    {
+                                                        <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
+                                                    }
+                                                </select>
                                             </div>
-                                            <select class="custom-select" id="Comm3">
-                                                <option value="">-Choisir-</option>
-                                                @foreach (var item in Model.ProjetPC)
-                                                {
-                                                    <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
-                                                }
-                                            </select>
-                                        </div>
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label class="input-group-text" for="Comm4">Commercial N° 4</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="Comm4">Commercial N° 4</label>
+                                                </div>
+                                                <select class="custom-select" name="id44" asp-for="@Model.commerialComp.Id4" id="Comm4">
+                                                    <option value="1996456789">-Choisir-</option>
+                                                    @foreach (var item in Model.ProjetPC)
+                                                    {
+                                                        <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
+                                                    }
+                                                </select>
                                             </div>
-                                            <select class="custom-select" id="Comm4">
-                                                <option value="">-Choisir-</option>
-                                                @foreach (var item in Model.ProjetPC)
-                                                {
-                                                    <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
-                                                }
-                                            </select>
-                                        </div>
-                                        <div class="input-group mb-3">
-                                            <div class="input-group-prepend">
-                                                <label class="input-group-text" for="Comm5">Commercial N° 5</label>
+                                            <div class="input-group mb-3">
+                                                <div class="input-group-prepend">
+                                                    <label class="input-group-text" for="Comm5">Commercial N° 5</label>
+                                                </div>
+                                                <select class="custom-select" name="id55" asp-for="@Model.commerialComp.Id5" id="Comm5">
+                                                    <option value="1996456789">-Choisir-</option>
+                                                    @foreach (var item in Model.ProjetPC)
+                                                    {
+                                                        <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
+                                                    }
+                                                </select>
                                             </div>
-                                            <select class="custom-select" id="Comm5">
-                                                <option value="">-Choisir-</option>
-                                                @foreach (var item in Model.ProjetPC)
-                                                {
-                                                    <option value="@item.Id">@Html.DisplayFor(Model => item.Prenom) @Html.DisplayFor(Model => item.Nom)</option>
-                                                }
-                                            </select>
-                                        </div>
-
+                                            <br />
+                                            <input type="submit" value="valider" />
+                                        </form>
                                         <!--fin de filtre-->
 
 

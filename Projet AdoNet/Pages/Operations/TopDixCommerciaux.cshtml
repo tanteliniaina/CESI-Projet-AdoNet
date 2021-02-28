@@ -1,8 +1,17 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.TopDixCommerciauxModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Les top 6 des commerciaux";
 }
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
 
 <br />
 
@@ -25,6 +34,7 @@
                 </tr>
             </thead>
             <tbody>
+                @{ int i = 0; int j = 0; int k = 0;}
                 @foreach (var item in Model.ClientP)
                 {
                     <tr>
@@ -34,6 +44,8 @@
                         <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
                         <td><a asp-page="./ListeProjetParCommercial" asp-route-id="@item.Id">Afficher les projets</a></td>
                     </tr>
+                    i++;
+                    if(i == 6) { break; }
                 }
             </tbody>
         </table>
@@ -44,11 +56,14 @@
 </div>
 
 <table id="nomPrenom" style="visibility:collapse;">
+
     @foreach (var item in Model.ClientP)
     {
         <tr>
             <td>@Html.DisplayFor(Model => item.Nom) @Html.DisplayFor(Model => item.Prenom)</td>
         </tr>
+        j++;
+        if (j == 6) { break; }
     }
 </table>
 <table id="nombreProjet" style="visibility:collapse;">
@@ -57,6 +72,8 @@
         <tr>
             <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
         </tr>
+        k++;
+        if (k == 6) { break; }
     }
 </table>
 <!--injection du script-->

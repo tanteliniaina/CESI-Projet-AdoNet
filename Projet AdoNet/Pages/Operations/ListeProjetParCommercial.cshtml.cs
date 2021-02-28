@@ -22,7 +22,7 @@ namespace Projet_AdoNet.Pages.Operations
         public List<Projet> Projet { get; set; }
 
 
-        public async Task<IActionResult> OnGetAsync(int? id)
+        public IActionResult OnGet(int? id)
         {
             if (id == null)
             {

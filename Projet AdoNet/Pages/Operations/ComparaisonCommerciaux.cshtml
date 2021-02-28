@@ -1,7 +1,15 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.ComparaisonCommerciauxModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Résultat de la comparaison";
+}
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
 }
 
 
@@ -12,3 +20,54 @@
 </div>
 
 <br />
+
+<div class="row">
+    <div class="col-sm">
+        <table class="table table-striped table caption-top" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">Ref. Comm</th>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Prenom</th>
+                    <th scope="col">Nombre de projet</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+
+                @foreach (var item in Model.Projetcc)
+                {
+                    <tr>
+                        <th scope="row">@Html.DisplayFor(Model => item.Id)</th>
+                        <th scope="row">@Html.DisplayFor(Model => item.Nom)</th>
+                        <td>@Html.DisplayFor(Model => item.Prenom)</td>
+                        <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
+                        <td><a asp-page="./ListeProjetParCommercial" asp-route-id="@item.Id">Afficher les projets</a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm">
+        <canvas id="myChart" width="200" height="200"></canvas>
+    </div>
+</div>
+
+@*<table id="nomPrenom" style="visibility:collapse;">
+        @foreach (var item in Model.ClientP)
+        {
+            <tr>
+                <td>@Html.DisplayFor(Model => item.Nom) @Html.DisplayFor(Model => item.Prenom)</td>
+            </tr>
+        }
+    </table>
+    <table id="nombreProjet" style="visibility:collapse;">
+        @foreach (var item in Model.ClientP)
+        {
+            <tr>
+                <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
+            </tr>
+        }
+    </table>*@

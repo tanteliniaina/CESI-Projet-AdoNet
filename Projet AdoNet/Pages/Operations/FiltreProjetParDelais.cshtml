@@ -1,8 +1,17 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.FiltreProjetParDelaisModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Les projets par délais";
 }
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
 
 <br />
 

@@ -1,8 +1,17 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.TopDixClientsModel
+@using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Les top 6 des clients";
 }
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
 
 <br />
 
@@ -25,6 +34,7 @@
                 </tr>
             </thead>
             <tbody>
+                @{ int i = 0; int j = 0; int k = 0;}
                 @foreach (var item in Model.ClientP)
                 {
                     <tr>
@@ -34,6 +44,8 @@
                         <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
                         <td><a asp-page="./ListeProjetParClient" asp-route-id="@item.Id">Afficher projet</a></td>
                     </tr>
+                    i++;
+                    if (i == 6) { break; }
                 }
             </tbody>
         </table>
@@ -49,16 +61,20 @@
         <tr>
             <td>@Html.DisplayFor(Model => item.Nom) @Html.DisplayFor(Model => item.Prenom)</td>
         </tr>
+        j++;
+        if (j == 6) { break; }
     }
-    </table>
-<table id="nombreProjet"  style="visibility:collapse;">
+</table>
+<table id="nombreProjet" style="visibility:collapse;">
     @foreach (var item in Model.ClientP)
     {
         <tr>
             <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
         </tr>
+        k++;
+        if (k == 6) { break; }
     }
-    </table>
+</table>
 <!--injection du script-->
 <script src="~/js/Chart.bundle.min.js"></script>
 

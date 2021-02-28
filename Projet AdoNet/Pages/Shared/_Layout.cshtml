@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-secondary bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" asp-area="" asp-page="/Index">
             <img src="~/Logo.png" width="50" height="30" class="d-inline-block align-top" alt="logo" />
         </a>
@@ -19,32 +19,38 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-page="/Accueil">Accueil</a>
+                    <a class="nav-link" asp-area="" asp-page="/Accueil" style="color:blueviolet;">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-page="/Operations/Index">BI</a>
+                    <a class="nav-link" asp-area="" asp-page="/Operations/Index" style="color:blueviolet;">BI</a>
                 </li>
 
                 <!--dropdown-->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" style="color:blueviolet;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Administration
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" asp-area="" asp-page="/Clients/Index">Clients</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Commerciaux/Index">Commerciaux</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Managers/Index">Managers</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Projets/Index">Projets</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Statuts/Index">Statuts</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Clients/Index" style="color:blueviolet;">Clients</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Commerciaux/Index" style="color:blueviolet;">Commerciaux</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Managers/Index" style="color:blueviolet;">Managers</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Projets/Index" style="color:blueviolet;">Projets</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Statuts/Index" style="color:blueviolet;">Statuts</a>
                     </div>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mr-0 my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-page="/index" style="color:blueviolet;">Deconnexion</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" style="height:1500px">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

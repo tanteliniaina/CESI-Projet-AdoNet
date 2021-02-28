@@ -98,5 +98,37 @@ namespace Projet_AdoNet.Models
                 return dt;
             }
         }
+        
+        public List<ProjetParCommerciaux> Comparaison(int id1, int id2, int id3, int id4, int id5)
+        {
+            List<ProjetParCommerciaux> dt = new List<ProjetParCommerciaux>();
+
+            using (var cmd = new SqlCommand("ComparaisonEntreCinq", sqlconn))
+            {
+                cmd.Parameters.Add(new SqlParameter("@id1", id1));
+                cmd.Parameters.Add(new SqlParameter("@id2", id2));
+                cmd.Parameters.Add(new SqlParameter("@id3", id3));
+                cmd.Parameters.Add(new SqlParameter("@id4", id4));
+                cmd.Parameters.Add(new SqlParameter("@id5", id5));
+                cmd.CommandType = CommandType.StoredProcedure;
+                sqlconn.Open();
+
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ProjetParCommerciaux prj = new ProjetParCommerciaux();
+
+                    prj.Id = reader.GetInt32(0);
+                    prj.Nom = reader.GetString(1);
+                    prj.Prenom = reader.GetString(2);
+                    prj.NombreProjet = reader.GetInt32(3);
+
+                    dt.Add(prj);
+                }
+                sqlconn.Close();
+                return dt;
+            }
+        }
     }
 }
