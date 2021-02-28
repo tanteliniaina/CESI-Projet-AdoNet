@@ -1,8 +1,15 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Clients.CreateModel
+@using Microsoft.AspNetCore.Http
 
 @{
     ViewData["Title"] = "Création de Client";
+}
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
 }
 
 <br />

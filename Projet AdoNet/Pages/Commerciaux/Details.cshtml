@@ -1,9 +1,17 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Commerciaux.DetailsModel
+@using Microsoft.AspNetCore.Http
 
 @{
     ViewData["Title"] = "Details du Commercial";
 }
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
 
 <br />
 
@@ -11,6 +19,7 @@
     <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
 
+<br />
 <br />
 
 <div>
@@ -31,6 +40,8 @@
     </dl>
 </div>
 <div>
+    <!--
     <a asp-page="./Edit" asp-route-id="@Model.Commercial.Id">Modifier</a> |
     <a asp-page="./Index">Revenir à la liste</a>
+    -->
 </div>

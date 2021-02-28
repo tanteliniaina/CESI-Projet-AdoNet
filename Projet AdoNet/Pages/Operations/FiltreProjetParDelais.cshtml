@@ -1,0 +1,62 @@
+﻿@page
+@model Projet_AdoNet.Pages.Operations.FiltreProjetParDelaisModel
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Les projets par délais";
+}
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+<hr />
+<br />
+
+<div class="row">
+    <div class="col-sm">
+        <p>Ci-dessous la liste des projets regroupés par ville :</p>
+        <br />
+        <table class="table table-striped table caption-top">
+            <thead>
+                <tr>
+                    <th scope="col">Ref. Projet</th>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Date de création</th>
+                    <th scope="col">Date de finalisation</th>
+                    <th scope="col">Ville</th>
+                    <th scope="col">Actions</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Projet)
+                {
+                    <tr>
+                        <th scope="row">@Html.DisplayFor(Model => item.Id)</th>
+                        <td>@Html.DisplayFor(Model => item.Nom)</td>
+                        <td>@Html.DisplayFor(Model => item.DateCreation)</td>
+                        <td>@Html.DisplayFor(Model => item.DateFinalisation)</td>
+                        <td>@Html.DisplayFor(Model => item.Ville)</td>
+                        <td><a asp-page="./DetailsProjetParVille" asp-route-ville="@item.Ville">Afficher tous</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm">
+        <p>Le diagramme du résultat :</p>
+        <br />
+        <canvas id="myChart" width="200" height="200"></canvas>
+    </div>
+</div>

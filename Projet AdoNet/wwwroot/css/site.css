@@ -59,8 +59,9 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
-  background-image : url("../bng.jpg");
+    margin-bottom: 60px;
+    background-image: url("../bng.jpg");
+    background-repeat: repeat-x;
 }
 
 .footer {
@@ -74,7 +75,9 @@ body {
 h1{
     color:blueviolet;
 }
+
 a{
     color:blueviolet;
 }
+
     

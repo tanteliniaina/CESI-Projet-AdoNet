@@ -11,6 +11,9 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projet_AdoNet.Data;
 using Projet_AdoNet.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Http;
 
 namespace Projet_AdoNet
 {
@@ -26,15 +29,47 @@ namespace Projet_AdoNet
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
 
-            services.AddDbContext<Projet_AdoNetContext>(options =>
+            services.AddHttpContextAccessor();
+
+            /*Pour le stockage de la variable de session qui durera 5 minutes*/
+            services.AddSession(o => {
+                o.IdleTimeout = TimeSpan.FromMinutes(5);
+                o.Cookie.HttpOnly = true;
+                o.Cookie.IsEssential = true;
+            });
+
+            services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
+
+            //utilisation de mvc
+            services.AddMvc(option => option.EnableEndpointRouting = false);
+
+
+
+            services.Configure<CookiePolicyOptions>(options =>
+            {
+                // This lambda determines whether user consent for non-essential cookies is needed for a given request.
+                options.CheckConsentNeeded = context => true;
+                options.MinimumSameSitePolicy = SameSiteMode.None;
+            });
+            
+
+            //services.AddRazorPages();
+
+            services.AddMvc().AddRazorPagesOptions(options =>
+            {
+                options.Conventions.AllowAnonymousToPage("/Index");
+            });
+
+            var connection = services.AddDbContext<Projet_AdoNetContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Projet_AdoNetContext")));
 
-            /*Connexion personnalisé*/
-            /*services.AddSingleton<Connexion>();
+            /*Connexion personnalisé au model*/
+            services.AddSingleton<Connexion>();
             services.AddSingleton<CommercialTraitement>();
-            services.AddSingleton<CommercialListeProjet>();*/
+            services.AddSingleton<ActionCommercial>();
+            services.AddSingleton<ActionClient>();
+            services.AddSingleton<ActionProjet>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -51,17 +86,20 @@ namespace Projet_AdoNet
                 app.UseHsts();
             }
 
+            app.UseSession();
+            app.UseMvc();
+            
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
-
-            app.UseAuthorization();
-
+           
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
             });
+            
         }
     }
 }

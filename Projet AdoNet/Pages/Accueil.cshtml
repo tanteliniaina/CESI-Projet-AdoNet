@@ -1,0 +1,71 @@
+﻿@page
+@model Projet_AdoNet.Pages.AccueilModel
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Démarrage rapide!";
+}
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+<br />
+<br />
+
+<div class="row">
+
+    <div class="col-sm">
+        <h4 style="color:deepskyblue">Présentation des opérations</h4><br />
+        <p>L'application dispose actuellement 3 opérations.</p>
+        <ul>
+            <li>Sur les commerciaux</li>
+            <li>Sur les clients</li>
+            <li>Sur les projets</li>
+        </ul>
+        <p>Ci dessous l'image représentant ces 3 fonctionnalités.</p>
+        <br />
+        @*Présentation en image*@
+        <img src="~/Filtre.PNG" width="400" height="240" />
+    </div>
+
+    <div class="col-sm">
+        <h4 style="color:deepskyblue">Les Filtres</h4><br />
+        <p>Elle dispose de plusieur filtre par défaut comme :</p>
+        <ul>
+            <li>Affichage de tout les éléments</li>
+            <li>Affichage des top 6</li>
+            <li>etc.</li>
+        </ul>
+        <br />
+        @*filtres en images*@
+        <img src="~/Filtre1.PNG" width="250" height="75" />
+        <br />
+        <br />
+        <p>Elle dispose aussi des filtre personnalisé telles que :</p>
+        <ul>
+            <li>La comparaison des commerciaux</li>
+            <li>La comparaison des projets par délais</li>
+        </ul>
+        <br />
+        <img src="~/Filtre2.PNG" width="300" height="250" />
+    </div>
+</div>
+<br />
+<hr />
+<br />
+<div class="text-center">
+    <h4 style="color:deepskyblue">Les résultats</h4><br />
+    <p>Vous aurez des différentes type de représentation graphique afin de mieux appréhender le résultat que le tableau retourne.</p>
+    <br />
+    <img src="~/Resultat.PNG" width="750" height="400" />
+</div>
+        
+

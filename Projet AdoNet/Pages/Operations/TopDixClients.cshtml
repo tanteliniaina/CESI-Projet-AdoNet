@@ -1,0 +1,88 @@
+﻿@page
+@model Projet_AdoNet.Pages.Operations.TopDixClientsModel
+@using Microsoft.AspNetCore.Http
+@{
+    ViewData["Title"] = "Les top 6 des clients";
+}
+
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
+
+<br />
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+</div>
+
+<br />
+<hr />
+<br />
+
+<div class="row">
+    <div class="col-sm">
+        <p>Ci-dessous la liste des Top 6 des clients :</p>
+        <br />
+        <table class="table table-striped table caption-top" id="myTable">
+            <thead>
+                <tr>
+                    <th scope="col">Ref. Client</th>
+                    <th scope="col">Nom</th>
+                    <th scope="col">Prenom</th>
+                    <th scope="col">Nombre de projet</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{ int i = 0; int j = 0; int k = 0;}
+                @foreach (var item in Model.ClientP)
+                {
+                    <tr>
+                        <th scope="row">@Html.DisplayFor(Model => item.Id)</th>
+                        <th scope="row">@Html.DisplayFor(Model => item.Nom)</th>
+                        <td>@Html.DisplayFor(Model => item.Prenom)</td>
+                        <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
+                        <td><a asp-page="./ListeProjetParClient" asp-route-id="@item.Id">Afficher projet</a></td>
+                    </tr>
+                    i++;
+                    if (i == 6) { break; }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm">
+        <p>Le diagramme du résultat :</p>
+        <br />
+        <canvas id="myChart" width="200" height="200"></canvas>
+    </div>
+</div>
+
+<table id="nomPrenom" style="visibility:collapse;">
+    @foreach (var item in Model.ClientP)
+    {
+        <tr>
+            <td>@Html.DisplayFor(Model => item.Nom) @Html.DisplayFor(Model => item.Prenom)</td>
+        </tr>
+        j++;
+        if (j == 6) { break; }
+    }
+</table>
+<table id="nombreProjet" style="visibility:collapse;">
+    @foreach (var item in Model.ClientP)
+    {
+        <tr>
+            <td>@Html.DisplayFor(Model => item.NombreProjet)</td>
+        </tr>
+        k++;
+        if (k == 6) { break; }
+    }
+</table>
+<!--injection du script-->
+<script src="~/js/Chart.bundle.min.js"></script>
+
+<!--script pour le chart-->
+<script src="~/js/TopDixClients.js"></script>

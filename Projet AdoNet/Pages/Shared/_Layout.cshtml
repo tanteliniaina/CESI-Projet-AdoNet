@@ -6,51 +6,57 @@
     <title>@ViewData["Title"] - Projet_AdoNet</title>
     <link rel="shortcut icon" href="~/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="~/css/site.css" rel="stylesheet" />
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <a class="navbar-brand" asp-area="" asp-page="/Index">
-            <img src="~/Logo.png" width="50" height="30" class="d-inline-block align-top" alt="logo"/>
+            <img src="~/Logo.png" width="50" height="30" class="d-inline-block align-top" alt="logo" />
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link"  asp-area="" asp-page="/Index">Accueil</a>
+                    <a class="nav-link" asp-area="" asp-page="/Accueil" style="color:blueviolet;">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-area="" asp-page="/BI">BI</a>
+                    <a class="nav-link" asp-area="" asp-page="/Operations/Index" style="color:blueviolet;">BI</a>
                 </li>
 
                 <!--dropdown-->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" style="color:blueviolet;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Administration
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" asp-area="" asp-page="/Clients/Index">Clients</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Commerciaux/Index">Commerciaux</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Managers/Index">Managers</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Projets/Index">Projets</a>
-                        <a class="dropdown-item" asp-area="" asp-page="/Statuts/Index">Statuts</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Clients/Index" style="color:blueviolet;">Clients</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Commerciaux/Index" style="color:blueviolet;">Commerciaux</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Managers/Index" style="color:blueviolet;">Managers</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Projets/Index" style="color:blueviolet;">Projets</a>
+                        <a class="dropdown-item" asp-area="" asp-page="/Statuts/Index" style="color:blueviolet;">Statuts</a>
                     </div>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav mr-0 my-2 my-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-page="/index" style="color:blueviolet;">Deconnexion</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container" style="height:1500px">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted bg-dark">
+    <footer class="border-top footer text-muted bg-light">
         <div class="container">
             <div class="text-center">
                 &copy; 2021 - Madera - <a asp-area="" asp-page="/Privacy">Politiques & Confidentialités</a>
@@ -61,6 +67,8 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+
 
     @RenderSection("Scripts", required: false)
 </body>

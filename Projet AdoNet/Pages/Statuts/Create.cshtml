@@ -1,9 +1,17 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Statuts.CreateModel
+@using Microsoft.AspNetCore.Http
 
 @{
     ViewData["Title"] = "Création d'un Statut";
 }
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
 
 <br />
 

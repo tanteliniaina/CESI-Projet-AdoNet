@@ -1,9 +1,18 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Managers.EditModel
+@using Microsoft.AspNetCore.Http
 
 @{
     ViewData["Title"] = "Modification de l'information du Manager";
 }
+
+@*Test de redirection*@
+@if (HttpContext.Session.GetString("login") == null)
+{
+    <script src="~/js/Redirect.js"></script>
+}
+
+
 
 <br />
 
