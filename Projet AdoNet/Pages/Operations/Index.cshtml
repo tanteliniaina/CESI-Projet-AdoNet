@@ -1,9 +1,13 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.IndexModel
+
 @using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Intelligence de l'entreprise [B.I]";
 }
+
+@*Gestion de la bouton de déconnexion*@
+<script src="~/js/ButtonControl.js"></script>
 
 @*Test de redirection*@
 @if (HttpContext.Session.GetString("login") == null)
@@ -184,7 +188,7 @@
             </div>
 
             <!--Partie Projet-->
-            
+
             <div class="tab-pane fade" id="Projets" role="tabpanel" aria-labelledby="Projets-tab">
                 <!--début de groupe de bouton-->
                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">

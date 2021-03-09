@@ -1,10 +1,14 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Managers.DeleteModel
+
 @using Microsoft.AspNetCore.Http
 
 @{
     ViewData["Title"] = "Suppression d'un Manager";
 }
+
+@*Gestion de la bouton de déconnexion*@
+<script src="~/js/ButtonControl.js"></script>
 
 @*Test de redirection*@
 @if (HttpContext.Session.GetString("login") == null)

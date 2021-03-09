@@ -34,6 +34,7 @@ namespace Projet_AdoNet.Models
                     prj.IdStatut = reader.GetInt32(5);
                     prj.IdCommercial = reader.GetInt32(6);
                     prj.IdClient = reader.GetInt32(7);
+                    //prj.LibelleStatus = reader.GetString(7);
 
                     dt.Add(prj);
                 }

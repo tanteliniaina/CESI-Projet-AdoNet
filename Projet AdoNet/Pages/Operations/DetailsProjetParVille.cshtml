@@ -1,10 +1,13 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.DetailsProjetParVilleModel
+
 @using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Liste des projet du ville";
 }
 
+@*Gestion de la bouton de déconnexion*@
+<script src="~/js/ButtonControl.js"></script>
 
 @*Test de redirection*@
 @if (HttpContext.Session.GetString("login") == null)
@@ -25,7 +28,7 @@
 
 <h4>Ci-dessous la liste des projets :</h4>
 <br />
-
+@*tableau des résultats*@
 <table class="table table-striped table caption-top">
     <thead>
         <tr>
@@ -39,6 +42,9 @@
         </tr>
     </thead>
     <tbody>
+
+        @*application d'une boucle pour l'affichage des données*@
+
         @foreach (var item in Model.Projet)
         {
             <tr>

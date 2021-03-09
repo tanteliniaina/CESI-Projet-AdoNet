@@ -1,10 +1,13 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.FiltreProjetParVilleModel
+
 @using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Le nombre de projets par ville";
 }
 
+@*Gestion de la bouton de déconnexion*@
+<script src="~/js/ButtonControl.js"></script>
 
 @*Test de redirection*@
 @if (HttpContext.Session.GetString("login") == null)
@@ -19,9 +22,11 @@
     <h1 class="display-4">@ViewData["Title"]</h1>
 </div>
 
+@*début séparation*@
 <br />
 <hr />
 <br />
+@*fin séparation*@
 
 <div class="row">
     <div class="col-sm">
@@ -37,6 +42,7 @@
                 </tr>
             </thead>
             <tbody>
+                @*application d'une boucle foreach pour l'affichage des données*@
                 @foreach (var item in Model.ProjetPC)
                 {
                     <tr>
@@ -51,11 +57,13 @@
     <div class="col-sm">
         <h4>Le diagramme du résultat :</h4>
         <br />
+        @*canvas pour afficher le diagramme*@
         <canvas id="myChart" width="200" height="200"></canvas>
     </div>
 </div>
 
 
+@*Deux tableaux cachée pour le traitement des diagrammes - les données sont les mêmes que ce qu'il y a dans le tableau précédent*@
 
 <table id="nbprojet" style="visibility:collapse;">
     @foreach (var item in Model.ProjetPC)
