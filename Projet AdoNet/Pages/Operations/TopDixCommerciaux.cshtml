@@ -1,10 +1,14 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.TopDixCommerciauxModel
+
 @using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Les top 6 des commerciaux";
 }
 
+
+@*Gestion de la bouton de déconnexion*@
+<script src="~/js/ButtonControl.js"></script>
 
 @*Test de redirection*@
 @if (HttpContext.Session.GetString("login") == null)

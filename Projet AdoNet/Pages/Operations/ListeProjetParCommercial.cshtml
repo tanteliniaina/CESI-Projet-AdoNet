@@ -1,10 +1,13 @@
 ﻿@page
 @model Projet_AdoNet.Pages.Operations.ListeProjetParCommercialModel
+
 @using Microsoft.AspNetCore.Http
 @{
     ViewData["Title"] = "Le projet du commercial";
 }
 
+@*Gestion de la bouton de déconnexion*@
+<script src="~/js/ButtonControl.js"></script>
 
 @*Test de redirection*@
 @if (HttpContext.Session.GetString("login") == null)
